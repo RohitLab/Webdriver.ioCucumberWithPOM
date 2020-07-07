@@ -1,0 +1,44 @@
+2020-06-02T09:27:08.642Z INFO @wdio/local-runner: Run worker command: run
+2020-06-02T09:27:08.879Z DEBUG @wdio/local-runner:utils: init remote session
+2020-06-02T09:27:08.888Z INFO webdriverio: Initiate new session using the ./protocol-stub protocol
+2020-06-02T09:27:12.671Z DEBUG @wdio/local-runner:utils: init remote session
+2020-06-02T09:27:15.366Z INFO webdriverio: Initiate new session using the devtools protocol
+2020-06-02T09:27:15.369Z INFO devtools: Launch Google Chrome with flags: --disable-extensions --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-sync --metrics-recording-only --disable-default-apps --mute-audio --no-first-run --disable-hang-monitor --disable-prompt-on-repost --disable-client-side-phishing-detection --password-store=basic --use-mock-keychain --disable-component-extensions-with-background-pages --disable-breakpad --disable-dev-shm-usage --disable-ipc-flooding-protection --disable-renderer-backgrounding --enable-features=NetworkService,NetworkServiceInProcess --disable-features=site-per-process,TranslateUI,BlinkGenPropertyTrees --window-position=0,0 --window-size=1200,900
+2020-06-02T09:27:18.090Z INFO devtools: Connect Puppeteer with browser on port 49795
+2020-06-02T09:27:26.474Z INFO devtools: COMMAND getWindowHandles()
+2020-06-02T09:27:26.477Z INFO devtools: RESULT [ '2a5618a8-e31a-4a98-a70f-c71b63d26e41' ]
+2020-06-02T09:27:26.555Z INFO devtools: COMMAND switchToWindow("2a5618a8-e31a-4a98-a70f-c71b63d26e41")
+2020-06-02T09:27:26.575Z INFO devtools: RESULT 2a5618a8-e31a-4a98-a70f-c71b63d26e41
+2020-06-02T09:27:26.593Z INFO devtools: COMMAND navigateTo("d:workspacecucumber-boilerplate-masterdemo-appindex.html/")
+2020-06-02T09:27:27.768Z INFO devtools: COMMAND getWindowHandles()
+2020-06-02T09:27:27.768Z INFO devtools: RESULT [ '2a5618a8-e31a-4a98-a70f-c71b63d26e41' ]
+2020-06-02T09:27:27.779Z INFO devtools: COMMAND switchToWindow("2a5618a8-e31a-4a98-a70f-c71b63d26e41")
+2020-06-02T09:27:27.788Z INFO devtools: RESULT 2a5618a8-e31a-4a98-a70f-c71b63d26e41
+2020-06-02T09:27:27.801Z INFO devtools: COMMAND navigateTo("d:workspacecucumber-boilerplate-masterdemo-appindex.html/")
+2020-06-02T09:27:27.943Z INFO devtools: COMMAND getWindowHandles()
+2020-06-02T09:27:27.943Z INFO devtools: RESULT [ '2a5618a8-e31a-4a98-a70f-c71b63d26e41' ]
+2020-06-02T09:27:27.948Z INFO devtools: COMMAND switchToWindow("2a5618a8-e31a-4a98-a70f-c71b63d26e41")
+2020-06-02T09:27:27.952Z INFO devtools: RESULT 2a5618a8-e31a-4a98-a70f-c71b63d26e41
+2020-06-02T09:27:27.960Z INFO devtools: COMMAND navigateTo("d:workspacecucumber-boilerplate-masterdemo-appindex.html/")
+2020-06-02T09:27:28.062Z INFO devtools: COMMAND getWindowHandles()
+2020-06-02T09:27:28.063Z INFO devtools: RESULT [ '2a5618a8-e31a-4a98-a70f-c71b63d26e41' ]
+2020-06-02T09:27:28.070Z INFO devtools: COMMAND switchToWindow("2a5618a8-e31a-4a98-a70f-c71b63d26e41")
+2020-06-02T09:27:28.072Z INFO devtools: RESULT 2a5618a8-e31a-4a98-a70f-c71b63d26e41
+2020-06-02T09:27:28.081Z INFO devtools: COMMAND navigateTo("d:workspacecucumber-boilerplate-masterdemo-appindex.html/")
+2020-06-02T09:27:28.191Z INFO devtools: COMMAND getWindowHandles()
+2020-06-02T09:27:28.192Z INFO devtools: RESULT [ '2a5618a8-e31a-4a98-a70f-c71b63d26e41' ]
+2020-06-02T09:27:28.196Z INFO devtools: COMMAND switchToWindow("2a5618a8-e31a-4a98-a70f-c71b63d26e41")
+2020-06-02T09:27:28.198Z INFO devtools: RESULT 2a5618a8-e31a-4a98-a70f-c71b63d26e41
+2020-06-02T09:27:28.205Z INFO devtools: COMMAND navigateTo("d:workspacecucumber-boilerplate-masterdemo-appindex.html/")
+2020-06-02T09:27:28.323Z INFO devtools: COMMAND getWindowHandles()
+2020-06-02T09:27:28.324Z INFO devtools: RESULT [ '2a5618a8-e31a-4a98-a70f-c71b63d26e41' ]
+2020-06-02T09:27:28.329Z INFO devtools: COMMAND switchToWindow("2a5618a8-e31a-4a98-a70f-c71b63d26e41")
+2020-06-02T09:27:28.330Z INFO devtools: RESULT 2a5618a8-e31a-4a98-a70f-c71b63d26e41
+2020-06-02T09:27:28.343Z INFO devtools: COMMAND navigateTo("d:workspacecucumber-boilerplate-masterdemo-appindex.html/")
+2020-06-02T09:27:28.464Z INFO devtools: COMMAND getWindowHandles()
+2020-06-02T09:27:28.464Z INFO devtools: RESULT [ '2a5618a8-e31a-4a98-a70f-c71b63d26e41' ]
+2020-06-02T09:27:28.496Z INFO devtools: COMMAND switchToWindow("2a5618a8-e31a-4a98-a70f-c71b63d26e41")
+2020-06-02T09:27:28.502Z INFO devtools: RESULT 2a5618a8-e31a-4a98-a70f-c71b63d26e41
+2020-06-02T09:27:28.511Z INFO devtools: COMMAND navigateTo("d:workspacecucumber-boilerplate-masterdemo-appindex.html/")
+2020-06-02T09:27:28.612Z INFO devtools: COMMAND deleteSession()
+2020-06-02T09:27:28.617Z INFO devtools: RESULT null

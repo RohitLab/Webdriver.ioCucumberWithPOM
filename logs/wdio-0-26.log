@@ -1,0 +1,15 @@
+2020-06-02T09:27:03.541Z INFO @wdio/local-runner: Run worker command: run
+2020-06-02T09:27:03.692Z DEBUG @wdio/local-runner:utils: init remote session
+2020-06-02T09:27:03.699Z INFO webdriverio: Initiate new session using the ./protocol-stub protocol
+2020-06-02T09:27:08.418Z DEBUG @wdio/local-runner:utils: init remote session
+2020-06-02T09:27:10.983Z INFO webdriverio: Initiate new session using the devtools protocol
+2020-06-02T09:27:10.986Z INFO devtools: Launch Google Chrome with flags: --disable-extensions --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-sync --metrics-recording-only --disable-default-apps --mute-audio --no-first-run --disable-hang-monitor --disable-prompt-on-repost --disable-client-side-phishing-detection --password-store=basic --use-mock-keychain --disable-component-extensions-with-background-pages --disable-breakpad --disable-dev-shm-usage --disable-ipc-flooding-protection --disable-renderer-backgrounding --enable-features=NetworkService,NetworkServiceInProcess --disable-features=site-per-process,TranslateUI,BlinkGenPropertyTrees --window-position=0,0 --window-size=1200,900
+2020-06-02T09:27:13.499Z INFO devtools: Connect Puppeteer with browser on port 49774
+2020-06-02T09:27:22.528Z INFO devtools: COMMAND navigateTo("d:workspacecucumber-boilerplate-masterdemo-appindex.html/")
+2020-06-02T09:27:23.946Z INFO devtools: COMMAND navigateTo("d:workspacecucumber-boilerplate-masterdemo-appindex.html/")
+2020-06-02T09:27:24.142Z INFO devtools: COMMAND navigateTo("d:workspacecucumber-boilerplate-masterdemo-appindex.html/")
+2020-06-02T09:27:24.361Z INFO devtools: COMMAND navigateTo("d:workspacecucumber-boilerplate-masterdemo-appindex.html/index.html")
+2020-06-02T09:27:24.543Z INFO devtools: COMMAND navigateTo("d:workspacecucumber-boilerplate-masterdemo-appindex.html/")
+2020-06-02T09:27:24.850Z INFO devtools: COMMAND navigateTo("d:workspacecucumber-boilerplate-masterdemo-appindex.html/index.html")
+2020-06-02T09:27:25.272Z INFO devtools: COMMAND deleteSession()
+2020-06-02T09:27:25.277Z INFO devtools: RESULT null

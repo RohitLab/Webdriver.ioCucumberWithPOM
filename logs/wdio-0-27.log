@@ -1,0 +1,103 @@
+2020-06-02T09:27:06.022Z INFO @wdio/local-runner: Run worker command: run
+2020-06-02T09:27:06.076Z DEBUG @wdio/local-runner:utils: init remote session
+2020-06-02T09:27:06.084Z INFO webdriverio: Initiate new session using the ./protocol-stub protocol
+2020-06-02T09:27:09.720Z DEBUG @wdio/local-runner:utils: init remote session
+2020-06-02T09:27:12.495Z INFO webdriverio: Initiate new session using the devtools protocol
+2020-06-02T09:27:12.498Z INFO devtools: Launch Google Chrome with flags: --disable-extensions --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-sync --metrics-recording-only --disable-default-apps --mute-audio --no-first-run --disable-hang-monitor --disable-prompt-on-repost --disable-client-side-phishing-detection --password-store=basic --use-mock-keychain --disable-component-extensions-with-background-pages --disable-breakpad --disable-dev-shm-usage --disable-ipc-flooding-protection --disable-renderer-backgrounding --enable-features=NetworkService,NetworkServiceInProcess --disable-features=site-per-process,TranslateUI,BlinkGenPropertyTrees --window-position=0,0 --window-size=1200,900
+2020-06-02T09:27:14.876Z INFO devtools: Connect Puppeteer with browser on port 49780
+2020-06-02T09:27:23.697Z INFO devtools: COMMAND navigateTo("http://localhost:8080/")
+2020-06-02T09:27:24.631Z INFO devtools: RESULT null
+2020-06-02T09:27:25.693Z INFO devtools: COMMAND findElement("css selector", "#waitForEnabledElement")
+2020-06-02T09:27:25.730Z INFO devtools: RESULT Error: Element with selector "#waitForEnabledElement" not found
+    at DevToolsDriver.findElement (D:\Workspace\cucumber-boilerplate-master\node_modules\devtools\build\utils.js:111:12)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at Browser.wrappedCommand (D:\Workspace\cucumber-boilerplate-master\node_modules\devtools\build\devtoolsdriver.js:92:18)
+    at Browser.$ (D:\Workspace\cucumber-boilerplate-master\node_modules\webdriverio\build\commands\browser\$.js:19:15)
+    at Browser.runCommandWithHooks (D:\Workspace\cucumber-boilerplate-master\node_modules\@wdio\sync\build\wrapCommand.js:88:21)
+2020-06-02T09:27:25.751Z DEBUG webdriverio: command isEnabled was called on an element ("#waitForEnabledElement") that wasn't found, waiting for it...
+2020-06-02T09:27:25.790Z INFO devtools: COMMAND findElements("css selector", "#waitForEnabledElement")
+2020-06-02T09:27:25.801Z INFO devtools: RESULT []
+2020-06-02T09:27:26.281Z INFO devtools: COMMAND findElements("css selector", "#waitForEnabledElement")
+2020-06-02T09:27:26.289Z INFO devtools: RESULT []
+2020-06-02T09:27:26.757Z INFO devtools: COMMAND findElements("css selector", "#waitForEnabledElement")
+2020-06-02T09:27:26.762Z INFO devtools: RESULT []
+2020-06-02T09:27:27.338Z INFO devtools: COMMAND findElements("css selector", "#waitForEnabledElement")
+2020-06-02T09:27:27.345Z INFO devtools: RESULT []
+2020-06-02T09:27:27.759Z INFO devtools: COMMAND findElements("css selector", "#waitForEnabledElement")
+2020-06-02T09:27:27.768Z INFO devtools: RESULT []
+2020-06-02T09:27:28.273Z INFO devtools: COMMAND findElements("css selector", "#waitForEnabledElement")
+2020-06-02T09:27:28.285Z INFO devtools: RESULT []
+2020-06-02T09:27:29.016Z INFO devtools: COMMAND findElements("css selector", "#waitForEnabledElement")
+2020-06-02T09:27:29.243Z INFO devtools: RESULT []
+2020-06-02T09:27:29.342Z INFO devtools: COMMAND findElements("css selector", "#waitForEnabledElement")
+2020-06-02T09:27:29.559Z INFO devtools: RESULT []
+2020-06-02T09:27:29.759Z INFO devtools: COMMAND findElements("css selector", "#waitForEnabledElement")
+2020-06-02T09:27:29.768Z INFO devtools: RESULT []
+2020-06-02T09:27:30.432Z INFO devtools: COMMAND findElements("css selector", "#waitForEnabledElement")
+2020-06-02T09:27:30.450Z INFO devtools: RESULT []
+2020-06-02T09:27:30.764Z INFO devtools: COMMAND findElements("css selector", "#waitForEnabledElement")
+2020-06-02T09:27:30.775Z INFO devtools: RESULT []
+2020-06-02T09:27:31.258Z INFO devtools: COMMAND findElements("css selector", "#waitForEnabledElement")
+2020-06-02T09:27:31.264Z INFO devtools: RESULT []
+2020-06-02T09:27:31.760Z INFO devtools: COMMAND findElements("css selector", "#waitForEnabledElement")
+2020-06-02T09:27:31.766Z INFO devtools: RESULT []
+2020-06-02T09:27:32.279Z INFO devtools: COMMAND findElements("css selector", "#waitForEnabledElement")
+2020-06-02T09:27:32.285Z INFO devtools: RESULT []
+2020-06-02T09:27:32.758Z INFO devtools: COMMAND findElements("css selector", "#waitForEnabledElement")
+2020-06-02T09:27:32.768Z INFO devtools: RESULT []
+2020-06-02T09:27:33.258Z INFO devtools: COMMAND findElements("css selector", "#waitForEnabledElement")
+2020-06-02T09:27:33.264Z INFO devtools: RESULT []
+2020-06-02T09:27:33.757Z INFO devtools: COMMAND findElements("css selector", "#waitForEnabledElement")
+2020-06-02T09:27:33.764Z INFO devtools: RESULT []
+2020-06-02T09:27:34.258Z INFO devtools: COMMAND findElements("css selector", "#waitForEnabledElement")
+2020-06-02T09:27:34.263Z INFO devtools: RESULT []
+2020-06-02T09:27:34.756Z INFO devtools: COMMAND findElements("css selector", "#waitForEnabledElement")
+2020-06-02T09:27:34.761Z INFO devtools: RESULT []
+2020-06-02T09:27:35.257Z INFO devtools: COMMAND findElements("css selector", "#waitForEnabledElement")
+2020-06-02T09:27:35.261Z INFO devtools: RESULT []
+2020-06-02T09:27:35.767Z INFO devtools: COMMAND findElements("css selector", "#waitForEnabledElement")
+2020-06-02T09:27:35.779Z INFO devtools: RESULT []
+2020-06-02T09:27:35.787Z INFO devtools: COMMAND navigateTo("http://localhost:8080/")
+2020-06-02T09:27:35.882Z INFO devtools: RESULT null
+2020-06-02T09:27:36.894Z INFO devtools: COMMAND findElement("css selector", "#waitForVisibleElement")
+2020-06-02T09:27:36.900Z INFO devtools: RESULT Error: Element with selector "#waitForVisibleElement" not found
+    at DevToolsDriver.findElement (D:\Workspace\cucumber-boilerplate-master\node_modules\devtools\build\utils.js:111:12)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at Browser.wrappedCommand (D:\Workspace\cucumber-boilerplate-master\node_modules\devtools\build\devtoolsdriver.js:92:18)
+    at Browser.$ (D:\Workspace\cucumber-boilerplate-master\node_modules\webdriverio\build\commands\browser\$.js:19:15)
+    at Browser.runCommandWithHooks (D:\Workspace\cucumber-boilerplate-master\node_modules\@wdio\sync\build\wrapCommand.js:88:21)
+2020-06-02T09:27:36.909Z INFO devtools: COMMAND findElement("css selector", "#waitForVisibleElement")
+2020-06-02T09:27:36.912Z INFO devtools: RESULT Error: Element with selector "#waitForVisibleElement" not found
+    at DevToolsDriver.findElement (D:\Workspace\cucumber-boilerplate-master\node_modules\devtools\build\utils.js:111:12)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at Browser.wrappedCommand (D:\Workspace\cucumber-boilerplate-master\node_modules\devtools\build\devtoolsdriver.js:92:18)
+    at Browser.$ (D:\Workspace\cucumber-boilerplate-master\node_modules\webdriverio\build\commands\browser\$.js:19:15)
+    at Browser.runCommandWithHooks (D:\Workspace\cucumber-boilerplate-master\node_modules\@wdio\sync\build\wrapCommand.js:88:21)
+2020-06-02T09:27:36.928Z INFO devtools: COMMAND findElements("css selector", "#waitForVisibleBtn")
+2020-06-02T09:27:36.936Z INFO devtools: RESULT []
+2020-06-02T09:27:36.958Z INFO devtools: COMMAND navigateTo("http://localhost:8080/")
+2020-06-02T09:27:37.009Z INFO devtools: RESULT null
+2020-06-02T09:27:38.020Z INFO devtools: COMMAND findElements("css selector", "#waitForCreateElement > span")
+2020-06-02T09:27:38.031Z INFO devtools: RESULT []
+2020-06-02T09:27:38.041Z INFO devtools: COMMAND findElements("css selector", "#waitForCreateBtn")
+2020-06-02T09:27:38.049Z INFO devtools: RESULT []
+2020-06-02T09:27:38.070Z INFO devtools: COMMAND navigateTo("http://localhost:8080/")
+2020-06-02T09:27:38.123Z INFO devtools: RESULT null
+2020-06-02T09:27:39.132Z INFO devtools: COMMAND findElements("css selector", "#waitForCreateElement > span")
+2020-06-02T09:27:39.144Z INFO devtools: RESULT []
+2020-06-02T09:27:39.153Z INFO devtools: COMMAND findElements("css selector", "#waitForCreateBtn")
+2020-06-02T09:27:39.162Z INFO devtools: RESULT []
+2020-06-02T09:27:39.177Z INFO devtools: COMMAND navigateTo("http://localhost:8080/")
+2020-06-02T09:27:39.228Z INFO devtools: RESULT null
+2020-06-02T09:27:40.238Z INFO devtools: COMMAND findElements("css selector", "#waitForEnabledBtn")
+2020-06-02T09:27:40.249Z INFO devtools: RESULT []
+2020-06-02T09:27:40.262Z INFO devtools: COMMAND navigateTo("http://localhost:8080/")
+2020-06-02T09:27:40.310Z INFO devtools: RESULT null
+2020-06-02T09:27:41.320Z INFO devtools: COMMAND findElements("css selector", "#waitForVisibleBtn")
+2020-06-02T09:27:41.332Z INFO devtools: RESULT []
+2020-06-02T09:27:41.367Z INFO devtools: COMMAND navigateTo("http://localhost:8080/")
+2020-06-02T09:27:41.422Z INFO devtools: RESULT null
+2020-06-02T09:27:42.431Z INFO devtools: COMMAND findElements("css selector", "#waitForCreateBtn")
+2020-06-02T09:27:42.443Z INFO devtools: RESULT []
+2020-06-02T09:27:42.460Z INFO devtools: COMMAND deleteSession()
+2020-06-02T09:27:42.466Z INFO devtools: RESULT null

@@ -1,0 +1,24 @@
+2020-06-02T09:27:03.264Z INFO @wdio/local-runner: Run worker command: run
+2020-06-02T09:27:03.372Z DEBUG @wdio/local-runner:utils: init remote session
+2020-06-02T09:27:03.381Z INFO webdriverio: Initiate new session using the ./protocol-stub protocol
+2020-06-02T09:27:07.776Z DEBUG @wdio/local-runner:utils: init remote session
+2020-06-02T09:27:10.412Z INFO webdriverio: Initiate new session using the devtools protocol
+2020-06-02T09:27:10.415Z INFO devtools: Launch Google Chrome with flags: --disable-extensions --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-sync --metrics-recording-only --disable-default-apps --mute-audio --no-first-run --disable-hang-monitor --disable-prompt-on-repost --disable-client-side-phishing-detection --password-store=basic --use-mock-keychain --disable-component-extensions-with-background-pages --disable-breakpad --disable-dev-shm-usage --disable-ipc-flooding-protection --disable-renderer-backgrounding --enable-features=NetworkService,NetworkServiceInProcess --disable-features=site-per-process,TranslateUI,BlinkGenPropertyTrees --window-position=0,0 --window-size=1200,900
+2020-06-02T09:27:11.706Z INFO devtools: Connect Puppeteer with browser on port 49769
+2020-06-02T09:27:22.438Z INFO devtools: COMMAND navigateTo("d:workspacecucumber-boilerplate-masterdemo-appindex.html/")
+2020-06-02T09:27:23.843Z INFO devtools: COMMAND navigateTo("d:workspacecucumber-boilerplate-masterdemo-appindex.html/")
+2020-06-02T09:27:24.000Z INFO devtools: COMMAND navigateTo("d:workspacecucumber-boilerplate-masterdemo-appindex.html/")
+2020-06-02T09:27:24.271Z INFO devtools: COMMAND navigateTo("d:workspacecucumber-boilerplate-masterdemo-appindex.html/")
+2020-06-02T09:27:24.476Z INFO devtools: COMMAND navigateTo("d:workspacecucumber-boilerplate-masterdemo-appindex.html/")
+2020-06-02T09:27:24.613Z INFO devtools: COMMAND navigateTo("d:workspacecucumber-boilerplate-masterdemo-appindex.html/")
+2020-06-02T09:27:24.745Z INFO devtools: COMMAND navigateTo("d:workspacecucumber-boilerplate-masterdemo-appindex.html/")
+2020-06-02T09:27:24.927Z INFO devtools: COMMAND navigateTo("d:workspacecucumber-boilerplate-masterdemo-appindex.html/")
+2020-06-02T09:27:25.189Z INFO devtools: COMMAND navigateTo("d:workspacecucumber-boilerplate-masterdemo-appindex.html/")
+2020-06-02T09:27:25.348Z INFO devtools: COMMAND navigateTo("d:workspacecucumber-boilerplate-masterdemo-appindex.html/")
+2020-06-02T09:27:25.561Z INFO devtools: COMMAND navigateTo("d:workspacecucumber-boilerplate-masterdemo-appindex.html/")
+2020-06-02T09:27:25.714Z INFO devtools: COMMAND navigateTo("d:workspacecucumber-boilerplate-masterdemo-appindex.html/")
+2020-06-02T09:27:25.836Z INFO devtools: COMMAND navigateTo("d:workspacecucumber-boilerplate-masterdemo-appindex.html/")
+2020-06-02T09:27:25.956Z INFO devtools: COMMAND navigateTo("d:workspacecucumber-boilerplate-masterdemo-appindex.html/")
+2020-06-02T09:27:26.063Z INFO devtools: COMMAND navigateTo("d:workspacecucumber-boilerplate-masterdemo-appindex.html/")
+2020-06-02T09:27:26.214Z INFO devtools: COMMAND deleteSession()
+2020-06-02T09:27:26.230Z INFO devtools: RESULT null

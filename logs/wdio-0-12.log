@@ -1,0 +1,11 @@
+2020-06-02T09:26:30.866Z INFO @wdio/local-runner: Run worker command: run
+2020-06-02T09:26:30.939Z DEBUG @wdio/local-runner:utils: init remote session
+2020-06-02T09:26:30.946Z INFO webdriverio: Initiate new session using the ./protocol-stub protocol
+2020-06-02T09:26:33.365Z DEBUG @wdio/local-runner:utils: init remote session
+2020-06-02T09:26:36.778Z INFO webdriverio: Initiate new session using the devtools protocol
+2020-06-02T09:26:36.781Z INFO devtools: Launch Google Chrome with flags: --disable-extensions --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-sync --metrics-recording-only --disable-default-apps --mute-audio --no-first-run --disable-hang-monitor --disable-prompt-on-repost --disable-client-side-phishing-detection --password-store=basic --use-mock-keychain --disable-component-extensions-with-background-pages --disable-breakpad --disable-dev-shm-usage --disable-ipc-flooding-protection --disable-renderer-backgrounding --enable-features=NetworkService,NetworkServiceInProcess --disable-features=site-per-process,TranslateUI,BlinkGenPropertyTrees --window-position=0,0 --window-size=1200,900
+2020-06-02T09:26:39.711Z INFO devtools: Connect Puppeteer with browser on port 49581
+2020-06-02T09:26:50.931Z INFO devtools: COMMAND navigateTo("d:workspacecucumber-boilerplate-masterdemo-appindex.html/")
+2020-06-02T09:26:53.879Z INFO devtools: COMMAND navigateTo("d:workspacecucumber-boilerplate-masterdemo-appindex.html/")
+2020-06-02T09:26:54.610Z INFO devtools: COMMAND deleteSession()
+2020-06-02T09:26:54.617Z INFO devtools: RESULT null

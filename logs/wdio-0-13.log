@@ -1,0 +1,41 @@
+2020-06-02T09:26:30.781Z INFO @wdio/local-runner: Run worker command: run
+2020-06-02T09:26:30.825Z DEBUG @wdio/local-runner:utils: init remote session
+2020-06-02T09:26:30.857Z INFO webdriverio: Initiate new session using the ./protocol-stub protocol
+2020-06-02T09:26:33.330Z DEBUG @wdio/local-runner:utils: init remote session
+2020-06-02T09:26:36.304Z INFO webdriverio: Initiate new session using the devtools protocol
+2020-06-02T09:26:36.307Z INFO devtools: Launch Google Chrome with flags: --disable-extensions --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-sync --metrics-recording-only --disable-default-apps --mute-audio --no-first-run --disable-hang-monitor --disable-prompt-on-repost --disable-client-side-phishing-detection --password-store=basic --use-mock-keychain --disable-component-extensions-with-background-pages --disable-breakpad --disable-dev-shm-usage --disable-ipc-flooding-protection --disable-renderer-backgrounding --enable-features=NetworkService,NetworkServiceInProcess --disable-features=site-per-process,TranslateUI,BlinkGenPropertyTrees --window-position=0,0 --window-size=1200,900
+2020-06-02T09:26:38.482Z INFO devtools: Connect Puppeteer with browser on port 49577
+2020-06-02T09:26:48.402Z INFO devtools: COMMAND navigateTo("https://github.com/login")
+2020-06-02T09:26:56.307Z INFO devtools: RESULT null
+2020-06-02T09:26:56.802Z INFO devtools: COMMAND findElement("css selector", "#login_field")
+2020-06-02T09:26:56.909Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-1' }
+2020-06-02T09:26:57.217Z INFO devtools: COMMAND elementClear("ELEMENT-1")
+2020-06-02T09:26:57.264Z INFO devtools: RESULT null
+2020-06-02T09:26:57.278Z INFO devtools: COMMAND findElements("css selector", "#login_field")
+2020-06-02T09:26:57.294Z INFO devtools: RESULT [ { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-2' } ]
+2020-06-02T09:26:57.350Z INFO devtools: COMMAND findElement("css selector", "#login_field")
+2020-06-02T09:26:57.368Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-3' }
+2020-06-02T09:26:57.414Z INFO devtools: COMMAND elementSendKeys("ELEMENT-3", "<Screenshot[base64]>")
+2020-06-02T09:26:57.765Z INFO devtools: RESULT null
+2020-06-02T09:26:57.776Z INFO devtools: COMMAND findElement("css selector", "#password")
+2020-06-02T09:26:57.791Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-4' }
+2020-06-02T09:26:57.865Z INFO devtools: COMMAND elementClear("ELEMENT-4")
+2020-06-02T09:26:57.880Z INFO devtools: RESULT null
+2020-06-02T09:26:57.894Z INFO devtools: COMMAND findElements("css selector", "#password")
+2020-06-02T09:26:57.931Z INFO devtools: RESULT [ { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-5' } ]
+2020-06-02T09:26:57.959Z INFO devtools: COMMAND findElement("css selector", "#password")
+2020-06-02T09:26:57.962Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-6' }
+2020-06-02T09:26:57.978Z INFO devtools: COMMAND elementSendKeys("ELEMENT-6", "<Screenshot[base64]>")
+2020-06-02T09:26:58.133Z INFO devtools: RESULT null
+2020-06-02T09:26:58.153Z INFO devtools: COMMAND findElements("css selector", "[value='Sign in']")
+2020-06-02T09:26:58.166Z INFO devtools: RESULT [ { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-7' } ]
+2020-06-02T09:26:58.181Z INFO devtools: COMMAND findElement("css selector", "[value='Sign in']")
+2020-06-02T09:26:58.185Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-8' }
+2020-06-02T09:26:58.298Z INFO devtools: COMMAND elementClick("ELEMENT-8")
+2020-06-02T09:26:58.383Z INFO devtools: RESULT null
+2020-06-02T09:26:59.813Z INFO devtools: COMMAND findElement("css selector", "#js-flash-container .flash-error")
+2020-06-02T09:26:59.827Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-9' }
+2020-06-02T09:26:59.849Z INFO devtools: COMMAND executeScript(<fn>, <object>)
+2020-06-02T09:26:59.941Z INFO devtools: RESULT true
+2020-06-02T09:26:59.964Z INFO devtools: COMMAND deleteSession()
+2020-06-02T09:26:59.978Z INFO devtools: RESULT null

@@ -1,0 +1,18 @@
+2020-06-02T09:26:31.601Z INFO @wdio/local-runner: Run worker command: run
+2020-06-02T09:26:31.662Z DEBUG @wdio/local-runner:utils: init remote session
+2020-06-02T09:26:31.669Z INFO webdriverio: Initiate new session using the ./protocol-stub protocol
+2020-06-02T09:26:34.069Z DEBUG @wdio/local-runner:utils: init remote session
+2020-06-02T09:26:37.001Z INFO webdriverio: Initiate new session using the devtools protocol
+2020-06-02T09:26:37.003Z INFO devtools: Launch Google Chrome with flags: --disable-extensions --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-sync --metrics-recording-only --disable-default-apps --mute-audio --no-first-run --disable-hang-monitor --disable-prompt-on-repost --disable-client-side-phishing-detection --password-store=basic --use-mock-keychain --disable-component-extensions-with-background-pages --disable-breakpad --disable-dev-shm-usage --disable-ipc-flooding-protection --disable-renderer-backgrounding --enable-features=NetworkService,NetworkServiceInProcess --disable-features=site-per-process,TranslateUI,BlinkGenPropertyTrees --window-position=0,0 --window-size=1200,900
+2020-06-02T09:26:40.030Z INFO devtools: Connect Puppeteer with browser on port 49588
+2020-06-02T09:26:49.482Z INFO devtools: COMMAND navigateTo("https://github.com/webdriverio/cucumber-boilerplate")
+2020-06-02T09:27:01.218Z INFO devtools: RESULT null
+2020-06-02T09:27:01.547Z INFO devtools: COMMAND findElements("css selector", ".octicon-mark-github")
+2020-06-02T09:27:01.578Z INFO devtools: RESULT [
+  { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-1' },
+  { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-2' }
+]
+2020-06-02T09:27:01.838Z INFO devtools: COMMAND findElements("css selector", ".some-other-element")
+2020-06-02T09:27:02.008Z INFO devtools: RESULT []
+2020-06-02T09:27:02.293Z INFO devtools: COMMAND deleteSession()
+2020-06-02T09:27:02.412Z INFO devtools: RESULT null

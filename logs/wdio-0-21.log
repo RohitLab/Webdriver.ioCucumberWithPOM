@@ -1,0 +1,499 @@
+2020-06-02T09:26:37.222Z INFO @wdio/local-runner: Run worker command: run
+2020-06-02T09:26:37.379Z DEBUG @wdio/local-runner:utils: init remote session
+2020-06-02T09:26:37.387Z INFO webdriverio: Initiate new session using the ./protocol-stub protocol
+2020-06-02T09:26:40.250Z DEBUG @wdio/local-runner:utils: init remote session
+2020-06-02T09:26:42.711Z INFO webdriverio: Initiate new session using the devtools protocol
+2020-06-02T09:26:42.713Z INFO devtools: Launch Google Chrome with flags: --disable-extensions --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-sync --metrics-recording-only --disable-default-apps --mute-audio --no-first-run --disable-hang-monitor --disable-prompt-on-repost --disable-client-side-phishing-detection --password-store=basic --use-mock-keychain --disable-component-extensions-with-background-pages --disable-breakpad --disable-dev-shm-usage --disable-ipc-flooding-protection --disable-renderer-backgrounding --enable-features=NetworkService,NetworkServiceInProcess --disable-features=site-per-process,TranslateUI,BlinkGenPropertyTrees --window-position=0,0 --window-size=1200,900
+2020-06-02T09:26:44.696Z INFO devtools: Connect Puppeteer with browser on port 49613
+2020-06-02T09:26:53.462Z INFO devtools: COMMAND getUrl()
+2020-06-02T09:26:53.491Z INFO devtools: RESULT about:blank
+2020-06-02T09:26:53.520Z INFO devtools: COMMAND navigateTo("http://webdriverjs.christian-bromann.com/")
+2020-06-02T09:26:58.311Z INFO devtools: RESULT null
+2020-06-02T09:26:58.813Z INFO devtools: COMMAND getUrl()
+2020-06-02T09:26:59.381Z INFO devtools: RESULT http://webdriverjs.christian-bromann.com/
+2020-06-02T09:26:59.574Z INFO devtools: COMMAND getUrl()
+2020-06-02T09:26:59.707Z INFO devtools: RESULT http://webdriverjs.christian-bromann.com/
+2020-06-02T09:26:59.830Z INFO devtools: COMMAND getUrl()
+2020-06-02T09:26:59.848Z INFO devtools: RESULT http://webdriverjs.christian-bromann.com/
+2020-06-02T09:27:00.081Z INFO devtools: COMMAND navigateTo("http://webdriverjs.christian-bromann.com/")
+2020-06-02T09:27:00.534Z INFO devtools: RESULT null
+2020-06-02T09:27:00.683Z INFO devtools: COMMAND getUrl()
+2020-06-02T09:27:00.872Z INFO devtools: RESULT http://webdriverjs.christian-bromann.com/
+2020-06-02T09:27:00.936Z INFO devtools: COMMAND getUrl()
+2020-06-02T09:27:01.019Z INFO devtools: RESULT http://webdriverjs.christian-bromann.com/
+2020-06-02T09:27:01.046Z INFO devtools: COMMAND getTitle()
+2020-06-02T09:27:01.067Z INFO devtools: RESULT WebdriverJS Testpage
+2020-06-02T09:27:01.081Z INFO devtools: COMMAND navigateTo("http://webdriverjs.christian-bromann.com/")
+2020-06-02T09:27:01.696Z INFO devtools: RESULT null
+2020-06-02T09:27:01.877Z INFO devtools: COMMAND findElements("link text", "two")
+2020-06-02T09:27:02.076Z INFO devtools: RESULT [ { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-1' } ]
+2020-06-02T09:27:02.307Z INFO devtools: COMMAND findElement("link text", "two")
+2020-06-02T09:27:02.548Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-2' }
+2020-06-02T09:27:02.628Z INFO devtools: COMMAND elementClick("ELEMENT-2")
+2020-06-02T09:27:02.774Z INFO devtools: RESULT null
+2020-06-02T09:27:08.446Z INFO devtools: COMMAND getTitle()
+2020-06-02T09:27:08.499Z INFO devtools: RESULT two
+2020-06-02T09:27:09.709Z INFO devtools: COMMAND navigateTo("http://webdriverjs.christian-bromann.com/")
+2020-06-02T09:27:10.419Z INFO devtools: RESULT null
+2020-06-02T09:27:10.460Z INFO devtools: COMMAND findElement("css selector", ".btn1_clicked")
+2020-06-02T09:27:10.620Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-3' }
+2020-06-02T09:27:10.799Z INFO devtools: COMMAND executeScript(<fn>, <object>)
+2020-06-02T09:27:10.814Z INFO devtools: RESULT false
+2020-06-02T09:27:10.822Z INFO devtools: COMMAND findElements("css selector", ".btn1")
+2020-06-02T09:27:10.830Z INFO devtools: RESULT [ { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-4' } ]
+2020-06-02T09:27:10.854Z INFO devtools: COMMAND findElement("css selector", ".btn1")
+2020-06-02T09:27:10.856Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-5' }
+2020-06-02T09:27:10.866Z INFO devtools: COMMAND elementClick("ELEMENT-5")
+2020-06-02T09:27:10.912Z INFO devtools: RESULT null
+2020-06-02T09:27:10.927Z INFO devtools: COMMAND findElement("css selector", ".btn1_clicked")
+2020-06-02T09:27:10.929Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-6' }
+2020-06-02T09:27:10.940Z INFO devtools: COMMAND executeScript(<fn>, <object>)
+2020-06-02T09:27:10.956Z INFO devtools: RESULT true
+2020-06-02T09:27:10.979Z INFO devtools: COMMAND navigateTo("http://webdriverjs.christian-bromann.com/")
+2020-06-02T09:27:11.141Z INFO devtools: RESULT null
+2020-06-02T09:27:11.151Z INFO devtools: COMMAND findElement("css selector", ".btn1_dblclicked")
+2020-06-02T09:27:11.156Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-7' }
+2020-06-02T09:27:11.165Z INFO devtools: COMMAND executeScript(<fn>, <object>)
+2020-06-02T09:27:11.172Z INFO devtools: RESULT false
+2020-06-02T09:27:11.181Z INFO devtools: COMMAND findElements("css selector", ".btn1")
+2020-06-02T09:27:11.204Z INFO devtools: RESULT [ { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-8' } ]
+2020-06-02T09:27:11.225Z INFO devtools: COMMAND findElement("css selector", ".btn1")
+2020-06-02T09:27:11.228Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-9' }
+2020-06-02T09:27:11.239Z INFO devtools: COMMAND performActions(<object>)
+2020-06-02T09:27:11.973Z INFO devtools: COMMAND releaseActions()
+2020-06-02T09:27:11.982Z INFO devtools: COMMAND findElement("css selector", ".btn1_dblclicked")
+2020-06-02T09:27:11.985Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-10' }
+2020-06-02T09:27:12.023Z INFO devtools: COMMAND executeScript(<fn>, <object>)
+2020-06-02T09:27:12.032Z INFO devtools: RESULT false
+2020-06-02T09:27:12.143Z INFO devtools: COMMAND navigateTo("http://webdriverjs.christian-bromann.com/")
+2020-06-02T09:27:12.365Z INFO devtools: RESULT null
+2020-06-02T09:27:12.375Z INFO devtools: COMMAND findElement("css selector", ".btn1_clicked")
+2020-06-02T09:27:12.380Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-11' }
+2020-06-02T09:27:12.392Z INFO devtools: COMMAND executeScript(<fn>, <object>)
+2020-06-02T09:27:12.403Z INFO devtools: RESULT false
+2020-06-02T09:27:12.413Z INFO devtools: COMMAND findElements("css selector", ".btn1")
+2020-06-02T09:27:12.422Z INFO devtools: RESULT [ { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-12' } ]
+2020-06-02T09:27:12.432Z INFO devtools: COMMAND findElement("css selector", ".btn1")
+2020-06-02T09:27:12.435Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-13' }
+2020-06-02T09:27:12.448Z INFO devtools: COMMAND elementClick("ELEMENT-13")
+2020-06-02T09:27:12.510Z INFO devtools: RESULT null
+2020-06-02T09:27:12.534Z INFO devtools: COMMAND findElement("css selector", ".btn1_clicked")
+2020-06-02T09:27:12.538Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-14' }
+2020-06-02T09:27:12.557Z INFO devtools: COMMAND executeScript(<fn>, <object>)
+2020-06-02T09:27:12.565Z INFO devtools: RESULT true
+2020-06-02T09:27:12.583Z INFO devtools: COMMAND navigateTo("http://webdriverjs.christian-bromann.com/")
+2020-06-02T09:27:12.880Z INFO devtools: RESULT null
+2020-06-02T09:27:13.024Z INFO devtools: COMMAND findElement("xpath", "//html/body/section/form/input[1]")
+2020-06-02T09:27:13.105Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-15' }
+2020-06-02T09:27:13.135Z INFO devtools: COMMAND getElementAttribute("ELEMENT-15", "value")
+2020-06-02T09:27:13.143Z INFO devtools: RESULT a
+2020-06-02T09:27:13.148Z INFO devtools: COMMAND findElement("xpath", "//html/body/section/form/input[1]")
+2020-06-02T09:27:13.156Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-16' }
+2020-06-02T09:27:13.244Z INFO devtools: COMMAND executeScript(<fn>, <object>)
+2020-06-02T09:27:13.252Z INFO devtools: RESULT true
+2020-06-02T09:27:13.257Z INFO devtools: COMMAND getElementProperty("ELEMENT-16", "value")
+2020-06-02T09:27:13.266Z INFO devtools: RESULT a
+2020-06-02T09:27:13.273Z INFO devtools: COMMAND findElements("xpath", "//html/body/section/form/input[1]")
+2020-06-02T09:27:13.280Z INFO devtools: RESULT [ { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-17' } ]
+2020-06-02T09:27:13.290Z INFO devtools: COMMAND findElement("xpath", "//html/body/section/form/input[1]")
+2020-06-02T09:27:13.297Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-18' }
+2020-06-02T09:27:13.323Z INFO devtools: COMMAND elementSendKeys("ELEMENT-18", "bc")
+2020-06-02T09:27:13.425Z INFO devtools: RESULT null
+2020-06-02T09:27:13.433Z INFO devtools: COMMAND findElement("xpath", "//html/body/section/form/input[1]")
+2020-06-02T09:27:13.444Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-19' }
+2020-06-02T09:27:13.528Z INFO devtools: COMMAND getElementAttribute("ELEMENT-19", "value")
+2020-06-02T09:27:13.552Z INFO devtools: RESULT a
+2020-06-02T09:27:13.562Z INFO devtools: COMMAND findElement("xpath", "//html/body/section/form/input[1]")
+2020-06-02T09:27:13.591Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-20' }
+2020-06-02T09:27:13.611Z INFO devtools: COMMAND executeScript(<fn>, <object>)
+2020-06-02T09:27:13.626Z INFO devtools: RESULT true
+2020-06-02T09:27:13.631Z INFO devtools: COMMAND getElementProperty("ELEMENT-20", "value")
+2020-06-02T09:27:13.642Z INFO devtools: RESULT bca
+2020-06-02T09:27:13.845Z INFO devtools: COMMAND navigateTo("http://webdriverjs.christian-bromann.com/")
+2020-06-02T09:27:14.528Z INFO devtools: RESULT null
+2020-06-02T09:27:14.538Z INFO devtools: COMMAND findElement("xpath", "//html/body/section/form/input[1]")
+2020-06-02T09:27:14.618Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-21' }
+2020-06-02T09:27:14.650Z INFO devtools: COMMAND getElementAttribute("ELEMENT-21", "value")
+2020-06-02T09:27:14.672Z INFO devtools: RESULT a
+2020-06-02T09:27:14.685Z INFO devtools: COMMAND findElement("xpath", "//html/body/section/form/input[1]")
+2020-06-02T09:27:14.816Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-22' }
+2020-06-02T09:27:15.041Z INFO devtools: COMMAND executeScript(<fn>, <object>)
+2020-06-02T09:27:15.064Z INFO devtools: RESULT true
+2020-06-02T09:27:15.070Z INFO devtools: COMMAND getElementProperty("ELEMENT-22", "value")
+2020-06-02T09:27:15.077Z INFO devtools: RESULT a
+2020-06-02T09:27:15.201Z INFO devtools: COMMAND findElements("xpath", "//html/body/section/form/input[1]")
+2020-06-02T09:27:15.227Z INFO devtools: RESULT [ { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-23' } ]
+2020-06-02T09:27:15.272Z INFO devtools: COMMAND findElement("xpath", "//html/body/section/form/input[1]")
+2020-06-02T09:27:15.328Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-24' }
+2020-06-02T09:27:15.342Z INFO devtools: COMMAND elementClear("ELEMENT-24")
+2020-06-02T09:27:15.364Z INFO devtools: RESULT null
+2020-06-02T09:27:15.479Z INFO devtools: COMMAND elementSendKeys("ELEMENT-24", "bc")
+2020-06-02T09:27:15.957Z INFO devtools: RESULT null
+2020-06-02T09:27:15.981Z INFO devtools: COMMAND findElement("xpath", "//html/body/section/form/input[1]")
+2020-06-02T09:27:15.996Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-25' }
+2020-06-02T09:27:16.007Z INFO devtools: COMMAND getElementAttribute("ELEMENT-25", "value")
+2020-06-02T09:27:16.019Z INFO devtools: RESULT a
+2020-06-02T09:27:16.027Z INFO devtools: COMMAND findElement("xpath", "//html/body/section/form/input[1]")
+2020-06-02T09:27:16.038Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-26' }
+2020-06-02T09:27:16.049Z INFO devtools: COMMAND executeScript(<fn>, <object>)
+2020-06-02T09:27:16.078Z INFO devtools: RESULT true
+2020-06-02T09:27:16.088Z INFO devtools: COMMAND getElementProperty("ELEMENT-26", "value")
+2020-06-02T09:27:16.101Z INFO devtools: RESULT bc
+2020-06-02T09:27:16.115Z INFO devtools: COMMAND navigateTo("http://webdriverjs.christian-bromann.com/")
+2020-06-02T09:27:16.276Z INFO devtools: RESULT null
+2020-06-02T09:27:16.286Z INFO devtools: COMMAND findElements("xpath", "//html/body/section/form/input[1]")
+2020-06-02T09:27:16.315Z INFO devtools: RESULT [ { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-27' } ]
+2020-06-02T09:27:16.326Z INFO devtools: COMMAND findElement("xpath", "//html/body/section/form/input[1]")
+2020-06-02T09:27:16.333Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-28' }
+2020-06-02T09:27:16.341Z INFO devtools: COMMAND elementClear("ELEMENT-28")
+2020-06-02T09:27:16.361Z INFO devtools: RESULT null
+2020-06-02T09:27:16.367Z INFO devtools: COMMAND elementSendKeys("ELEMENT-28", "<Screenshot[base64]>")
+2020-06-02T09:27:16.448Z INFO devtools: RESULT null
+2020-06-02T09:27:16.458Z INFO devtools: COMMAND findElement("xpath", "//html/body/section/form/input[1]")
+2020-06-02T09:27:16.472Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-29' }
+2020-06-02T09:27:16.489Z INFO devtools: COMMAND elementClear("ELEMENT-29")
+2020-06-02T09:27:16.498Z INFO devtools: RESULT null
+2020-06-02T09:27:16.527Z INFO devtools: COMMAND findElement("xpath", "//html/body/section/form/input[1]")
+2020-06-02T09:27:16.582Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-30' }
+2020-06-02T09:27:16.594Z INFO devtools: COMMAND getElementAttribute("ELEMENT-30", "value")
+2020-06-02T09:27:16.600Z INFO devtools: RESULT a
+2020-06-02T09:27:16.626Z INFO devtools: COMMAND findElement("xpath", "//html/body/section/form/input[1]")
+2020-06-02T09:27:16.712Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-31' }
+2020-06-02T09:27:16.830Z INFO devtools: COMMAND getElementProperty("ELEMENT-31", "value")
+2020-06-02T09:27:17.029Z INFO devtools: RESULT 
+2020-06-02T09:27:17.150Z INFO devtools: COMMAND navigateTo("http://webdriverjs.christian-bromann.com/")
+2020-06-02T09:27:17.423Z INFO devtools: RESULT null
+2020-06-02T09:27:17.524Z INFO devtools: COMMAND findElement("css selector", ".searchinput")
+2020-06-02T09:27:17.616Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-32' }
+2020-06-02T09:27:17.693Z INFO devtools: COMMAND getElementAttribute("ELEMENT-32", "value")
+2020-06-02T09:27:17.763Z INFO devtools: RESULT null
+2020-06-02T09:27:17.790Z INFO devtools: COMMAND findElement("css selector", ".searchinput")
+2020-06-02T09:27:17.834Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-33' }
+2020-06-02T09:27:17.992Z INFO devtools: COMMAND executeScript(<fn>, <object>)
+2020-06-02T09:27:18.300Z INFO devtools: RESULT true
+2020-06-02T09:27:18.400Z INFO devtools: COMMAND getElementText("ELEMENT-33")
+2020-06-02T09:27:18.542Z INFO devtools: RESULT 
+2020-06-02T09:27:18.657Z INFO devtools: COMMAND findElement("css selector", "#overlay")
+2020-06-02T09:27:18.769Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-34' }
+2020-06-02T09:27:18.823Z INFO devtools: COMMAND findElement("css selector", ".red")
+2020-06-02T09:27:18.868Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-35' }
+2020-06-02T09:27:18.972Z INFO devtools: COMMAND executeScript("return { scrollX: this.pageXOffset, scrollY: this.pageYOffset };", <object>)
+2020-06-02T09:27:18.992Z INFO devtools: RESULT { scrollX: 0, scrollY: 0 }
+2020-06-02T09:27:18.997Z INFO devtools: COMMAND getElementRect("ELEMENT-34")
+2020-06-02T09:27:19.003Z INFO devtools: RESULT { x: 15, y: 480, width: 100, height: 50 }
+2020-06-02T09:27:19.008Z INFO devtools: COMMAND getElementRect("ELEMENT-35")
+2020-06-02T09:27:19.014Z INFO devtools: RESULT { x: 15, y: 242, width: 102, height: 102 }
+2020-06-02T09:27:19.018Z INFO devtools: COMMAND performActions(<object>)
+2020-06-02T09:27:19.815Z INFO devtools: COMMAND releaseActions()
+2020-06-02T09:27:19.821Z INFO devtools: COMMAND findElement("css selector", ".searchinput")
+2020-06-02T09:27:19.825Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-36' }
+2020-06-02T09:27:19.833Z INFO devtools: COMMAND getElementAttribute("ELEMENT-36", "value")
+2020-06-02T09:27:19.840Z INFO devtools: RESULT null
+2020-06-02T09:27:19.849Z INFO devtools: COMMAND findElement("css selector", ".searchinput")
+2020-06-02T09:27:19.852Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-37' }
+2020-06-02T09:27:19.857Z INFO devtools: COMMAND executeScript(<fn>, <object>)
+2020-06-02T09:27:19.864Z INFO devtools: RESULT true
+2020-06-02T09:27:19.868Z INFO devtools: COMMAND getElementText("ELEMENT-37")
+2020-06-02T09:27:19.876Z INFO devtools: RESULT 
+2020-06-02T09:27:19.894Z INFO devtools: COMMAND navigateTo("http://webdriverjs.christian-bromann.com/")
+2020-06-02T09:27:20.207Z INFO devtools: RESULT null
+2020-06-02T09:27:20.321Z INFO devtools: COMMAND findElements("css selector", ".lateElem")
+2020-06-02T09:27:20.578Z INFO devtools: RESULT []
+2020-06-02T09:27:20.637Z INFO devtools: COMMAND findElement("css selector", ".lateElem")
+2020-06-02T09:27:20.641Z INFO devtools: RESULT Error: Element with selector ".lateElem" not found
+    at DevToolsDriver.findElement (D:\Workspace\cucumber-boilerplate-master\node_modules\devtools\build\utils.js:111:12)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at Browser.wrappedCommand (D:\Workspace\cucumber-boilerplate-master\node_modules\devtools\build\devtoolsdriver.js:92:18)
+    at Browser.$ (D:\Workspace\cucumber-boilerplate-master\node_modules\webdriverio\build\commands\browser\$.js:19:15)
+    at Browser.runCommandWithHooks (D:\Workspace\cucumber-boilerplate-master\node_modules\@wdio\sync\build\wrapCommand.js:88:21)
+2020-06-02T09:27:20.651Z INFO devtools: COMMAND findElement("css selector", ".lateElem")
+2020-06-02T09:27:20.661Z INFO devtools: RESULT Error: Element with selector ".lateElem" not found
+    at DevToolsDriver.findElement (D:\Workspace\cucumber-boilerplate-master\node_modules\devtools\build\utils.js:111:12)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at Browser.wrappedCommand (D:\Workspace\cucumber-boilerplate-master\node_modules\devtools\build\devtoolsdriver.js:92:18)
+    at Browser.$ (D:\Workspace\cucumber-boilerplate-master\node_modules\webdriverio\build\commands\browser\$.js:19:15)
+    at Browser.runCommandWithHooks (D:\Workspace\cucumber-boilerplate-master\node_modules\@wdio\sync\build\wrapCommand.js:88:21)
+2020-06-02T09:27:21.274Z INFO devtools: COMMAND findElement("css selector", ".lateElem")
+2020-06-02T09:27:21.298Z INFO devtools: RESULT Error: Element with selector ".lateElem" not found
+    at DevToolsDriver.findElement (D:\Workspace\cucumber-boilerplate-master\node_modules\devtools\build\utils.js:111:12)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at Browser.wrappedCommand (D:\Workspace\cucumber-boilerplate-master\node_modules\devtools\build\devtoolsdriver.js:92:18)
+    at Browser.$ (D:\Workspace\cucumber-boilerplate-master\node_modules\webdriverio\build\commands\browser\$.js:19:15)
+    at Browser.runCommandWithHooks (D:\Workspace\cucumber-boilerplate-master\node_modules\@wdio\sync\build\wrapCommand.js:88:21)
+2020-06-02T09:27:21.739Z INFO devtools: COMMAND findElement("css selector", ".lateElem")
+2020-06-02T09:27:21.790Z INFO devtools: RESULT Error: Element with selector ".lateElem" not found
+    at DevToolsDriver.findElement (D:\Workspace\cucumber-boilerplate-master\node_modules\devtools\build\utils.js:111:12)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at Browser.wrappedCommand (D:\Workspace\cucumber-boilerplate-master\node_modules\devtools\build\devtoolsdriver.js:92:18)
+    at Browser.$ (D:\Workspace\cucumber-boilerplate-master\node_modules\webdriverio\build\commands\browser\$.js:19:15)
+    at Browser.runCommandWithHooks (D:\Workspace\cucumber-boilerplate-master\node_modules\@wdio\sync\build\wrapCommand.js:88:21)
+2020-06-02T09:27:22.372Z INFO devtools: COMMAND findElement("css selector", ".lateElem")
+2020-06-02T09:27:22.426Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-38' }
+2020-06-02T09:27:22.523Z INFO devtools: COMMAND executeScript(<fn>, <object>)
+2020-06-02T09:27:22.777Z INFO devtools: RESULT true
+2020-06-02T09:27:22.879Z INFO devtools: COMMAND navigateTo("http://webdriverjs.christian-bromann.com/")
+2020-06-02T09:27:23.380Z INFO devtools: RESULT null
+2020-06-02T09:27:23.653Z INFO devtools: COMMAND findElements("css selector", ".lateElem")
+2020-06-02T09:27:23.801Z INFO devtools: RESULT []
+2020-06-02T09:27:23.974Z INFO devtools: COMMAND findElement("css selector", ".lateElem")
+2020-06-02T09:27:24.123Z INFO devtools: RESULT Error: Element with selector ".lateElem" not found
+    at DevToolsDriver.findElement (D:\Workspace\cucumber-boilerplate-master\node_modules\devtools\build\utils.js:111:12)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at Browser.wrappedCommand (D:\Workspace\cucumber-boilerplate-master\node_modules\devtools\build\devtoolsdriver.js:92:18)
+    at Browser.$ (D:\Workspace\cucumber-boilerplate-master\node_modules\webdriverio\build\commands\browser\$.js:19:15)
+    at Browser.runCommandWithHooks (D:\Workspace\cucumber-boilerplate-master\node_modules\@wdio\sync\build\wrapCommand.js:88:21)
+2020-06-02T09:27:24.278Z INFO devtools: COMMAND findElement("css selector", ".lateElem")
+2020-06-02T09:27:24.357Z INFO devtools: RESULT Error: Element with selector ".lateElem" not found
+    at DevToolsDriver.findElement (D:\Workspace\cucumber-boilerplate-master\node_modules\devtools\build\utils.js:111:12)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at Browser.wrappedCommand (D:\Workspace\cucumber-boilerplate-master\node_modules\devtools\build\devtoolsdriver.js:92:18)
+    at Browser.$ (D:\Workspace\cucumber-boilerplate-master\node_modules\webdriverio\build\commands\browser\$.js:19:15)
+    at Browser.runCommandWithHooks (D:\Workspace\cucumber-boilerplate-master\node_modules\@wdio\sync\build\wrapCommand.js:88:21)
+2020-06-02T09:27:24.854Z INFO devtools: COMMAND findElement("css selector", ".lateElem")
+2020-06-02T09:27:24.987Z INFO devtools: RESULT Error: Element with selector ".lateElem" not found
+    at DevToolsDriver.findElement (D:\Workspace\cucumber-boilerplate-master\node_modules\devtools\build\utils.js:111:12)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at Browser.wrappedCommand (D:\Workspace\cucumber-boilerplate-master\node_modules\devtools\build\devtoolsdriver.js:92:18)
+    at Browser.$ (D:\Workspace\cucumber-boilerplate-master\node_modules\webdriverio\build\commands\browser\$.js:19:15)
+    at Browser.runCommandWithHooks (D:\Workspace\cucumber-boilerplate-master\node_modules\@wdio\sync\build\wrapCommand.js:88:21)
+2020-06-02T09:27:25.266Z INFO devtools: COMMAND findElement("css selector", ".lateElem")
+2020-06-02T09:27:25.276Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-39' }
+2020-06-02T09:27:25.302Z INFO devtools: COMMAND executeScript(<fn>, <object>)
+2020-06-02T09:27:25.330Z INFO devtools: RESULT true
+2020-06-02T09:27:25.346Z INFO devtools: COMMAND navigateTo("http://webdriverjs.christian-bromann.com/")
+2020-06-02T09:27:25.638Z INFO devtools: RESULT null
+2020-06-02T09:27:25.681Z INFO devtools: COMMAND findElements("css selector", ".lateElem")
+2020-06-02T09:27:25.729Z INFO devtools: RESULT []
+2020-06-02T09:27:28.763Z INFO devtools: COMMAND findElement("css selector", ".lateElem")
+2020-06-02T09:27:28.765Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-40' }
+2020-06-02T09:27:28.773Z INFO devtools: COMMAND executeScript(<fn>, <object>)
+2020-06-02T09:27:28.783Z INFO devtools: RESULT true
+2020-06-02T09:27:28.796Z INFO devtools: COMMAND navigateTo("http://webdriverjs.christian-bromann.com/")
+2020-06-02T09:27:29.354Z INFO devtools: RESULT null
+2020-06-02T09:27:29.538Z INFO devtools: COMMAND getTitle()
+2020-06-02T09:27:29.554Z INFO devtools: RESULT WebdriverJS Testpage
+2020-06-02T09:27:29.569Z INFO devtools: COMMAND getTitle()
+2020-06-02T09:27:29.574Z INFO devtools: RESULT WebdriverJS Testpage
+2020-06-02T09:27:29.584Z INFO devtools: COMMAND getTitle()
+2020-06-02T09:27:29.588Z INFO devtools: RESULT WebdriverJS Testpage
+2020-06-02T09:27:29.595Z INFO devtools: COMMAND getTitle()
+2020-06-02T09:27:29.599Z INFO devtools: RESULT WebdriverJS Testpage
+2020-06-02T09:27:29.613Z INFO devtools: COMMAND navigateTo("http://webdriverjs.christian-bromann.com/")
+2020-06-02T09:27:29.793Z INFO devtools: RESULT null
+2020-06-02T09:27:29.801Z INFO devtools: COMMAND findElement("css selector", ".btn1")
+2020-06-02T09:27:29.806Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-41' }
+2020-06-02T09:27:29.812Z INFO devtools: COMMAND executeScript(<fn>, <object>)
+2020-06-02T09:27:29.820Z INFO devtools: RESULT true
+2020-06-02T09:27:29.827Z INFO devtools: COMMAND findElement("css selector", ".btn1_clicked")
+2020-06-02T09:27:29.830Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-42' }
+2020-06-02T09:27:29.837Z INFO devtools: COMMAND executeScript(<fn>, <object>)
+2020-06-02T09:27:29.852Z INFO devtools: RESULT false
+2020-06-02T09:27:29.859Z INFO devtools: COMMAND findElement("css selector", ".btn1")
+2020-06-02T09:27:29.861Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-43' }
+2020-06-02T09:27:29.869Z INFO devtools: COMMAND executeScript(<fn>, <object>)
+2020-06-02T09:27:29.879Z INFO devtools: RESULT true
+2020-06-02T09:27:29.888Z INFO devtools: COMMAND findElement("css selector", ".btn1_clicked")
+2020-06-02T09:27:29.892Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-44' }
+2020-06-02T09:27:29.903Z INFO devtools: COMMAND executeScript(<fn>, <object>)
+2020-06-02T09:27:29.910Z INFO devtools: RESULT false
+2020-06-02T09:27:29.924Z INFO devtools: COMMAND navigateTo("http://webdriverjs.christian-bromann.com/")
+2020-06-02T09:27:30.120Z INFO devtools: RESULT null
+2020-06-02T09:27:30.297Z INFO devtools: COMMAND findElement("css selector", "#secondPageLink")
+2020-06-02T09:27:30.352Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-45' }
+2020-06-02T09:27:30.395Z INFO devtools: COMMAND getElementText("ELEMENT-45")
+2020-06-02T09:27:30.495Z INFO devtools: RESULT two
+2020-06-02T09:27:30.508Z INFO devtools: COMMAND findElement("css selector", "#secondPageLink")
+2020-06-02T09:27:30.517Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-46' }
+2020-06-02T09:27:30.528Z INFO devtools: COMMAND getElementText("ELEMENT-46")
+2020-06-02T09:27:30.541Z INFO devtools: RESULT two
+2020-06-02T09:27:30.549Z INFO devtools: COMMAND findElement("css selector", "#secondPageLink")
+2020-06-02T09:27:30.555Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-47' }
+2020-06-02T09:27:30.564Z INFO devtools: COMMAND getElementText("ELEMENT-47")
+2020-06-02T09:27:30.572Z INFO devtools: RESULT two
+2020-06-02T09:27:30.576Z INFO devtools: COMMAND findElement("css selector", "#githubRepo")
+2020-06-02T09:27:30.579Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-48' }
+2020-06-02T09:27:30.589Z INFO devtools: COMMAND getElementText("ELEMENT-48")
+2020-06-02T09:27:30.597Z INFO devtools: RESULT GitHub Repo
+2020-06-02T09:27:30.604Z INFO devtools: COMMAND findElement("css selector", "#secondPageLink")
+2020-06-02T09:27:30.607Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-49' }
+2020-06-02T09:27:30.614Z INFO devtools: COMMAND getElementText("ELEMENT-49")
+2020-06-02T09:27:30.620Z INFO devtools: RESULT two
+2020-06-02T09:27:30.626Z INFO devtools: COMMAND findElement("css selector", "#secondPageLink")
+2020-06-02T09:27:30.628Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-50' }
+2020-06-02T09:27:30.635Z INFO devtools: COMMAND getElementText("ELEMENT-50")
+2020-06-02T09:27:30.642Z INFO devtools: RESULT two
+2020-06-02T09:27:30.647Z INFO devtools: COMMAND findElement("css selector", "#secondPageLink")
+2020-06-02T09:27:30.650Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-51' }
+2020-06-02T09:27:30.687Z INFO devtools: COMMAND getElementText("ELEMENT-51")
+2020-06-02T09:27:30.695Z INFO devtools: RESULT two
+2020-06-02T09:27:30.699Z INFO devtools: COMMAND findElement("css selector", "#githubRepo")
+2020-06-02T09:27:30.703Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-52' }
+2020-06-02T09:27:30.709Z INFO devtools: COMMAND getElementText("ELEMENT-52")
+2020-06-02T09:27:30.717Z INFO devtools: RESULT GitHub Repo
+2020-06-02T09:27:30.745Z INFO devtools: COMMAND navigateTo("http://webdriverjs.christian-bromann.com/")
+2020-06-02T09:27:30.924Z INFO devtools: RESULT null
+2020-06-02T09:27:30.933Z INFO devtools: COMMAND findElement("css selector", "#secondPageLink")
+2020-06-02T09:27:30.937Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-53' }
+2020-06-02T09:27:30.948Z INFO devtools: COMMAND getElementAttribute("ELEMENT-53", "value")
+2020-06-02T09:27:30.955Z INFO devtools: RESULT null
+2020-06-02T09:27:30.966Z INFO devtools: COMMAND findElement("css selector", "#secondPageLink")
+2020-06-02T09:27:30.969Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-54' }
+2020-06-02T09:27:30.986Z INFO devtools: COMMAND executeScript(<fn>, <object>)
+2020-06-02T09:27:30.997Z INFO devtools: RESULT true
+2020-06-02T09:27:31.010Z INFO devtools: COMMAND getElementText("ELEMENT-54")
+2020-06-02T09:27:31.019Z INFO devtools: RESULT two
+2020-06-02T09:27:31.026Z INFO devtools: COMMAND findElement("css selector", "#secondPageLink")
+2020-06-02T09:27:31.028Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-55' }
+2020-06-02T09:27:31.035Z INFO devtools: COMMAND getElementAttribute("ELEMENT-55", "value")
+2020-06-02T09:27:31.042Z INFO devtools: RESULT null
+2020-06-02T09:27:31.046Z INFO devtools: COMMAND findElement("css selector", "#secondPageLink")
+2020-06-02T09:27:31.049Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-56' }
+2020-06-02T09:27:31.065Z INFO devtools: COMMAND executeScript(<fn>, <object>)
+2020-06-02T09:27:31.074Z INFO devtools: RESULT true
+2020-06-02T09:27:31.078Z INFO devtools: COMMAND getElementText("ELEMENT-56")
+2020-06-02T09:27:31.086Z INFO devtools: RESULT two
+2020-06-02T09:27:31.094Z INFO devtools: COMMAND findElement("css selector", "#secondPageLink")
+2020-06-02T09:27:31.096Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-57' }
+2020-06-02T09:27:31.106Z INFO devtools: COMMAND getElementAttribute("ELEMENT-57", "value")
+2020-06-02T09:27:31.114Z INFO devtools: RESULT null
+2020-06-02T09:27:31.119Z INFO devtools: COMMAND findElement("css selector", "#secondPageLink")
+2020-06-02T09:27:31.122Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-58' }
+2020-06-02T09:27:31.129Z INFO devtools: COMMAND executeScript(<fn>, <object>)
+2020-06-02T09:27:31.138Z INFO devtools: RESULT true
+2020-06-02T09:27:31.143Z INFO devtools: COMMAND getElementText("ELEMENT-58")
+2020-06-02T09:27:31.150Z INFO devtools: RESULT two
+2020-06-02T09:27:31.157Z INFO devtools: COMMAND findElement("css selector", "#secondPageLink")
+2020-06-02T09:27:31.160Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-59' }
+2020-06-02T09:27:31.166Z INFO devtools: COMMAND getElementAttribute("ELEMENT-59", "value")
+2020-06-02T09:27:31.174Z INFO devtools: RESULT null
+2020-06-02T09:27:31.179Z INFO devtools: COMMAND findElement("css selector", "#secondPageLink")
+2020-06-02T09:27:31.181Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-60' }
+2020-06-02T09:27:31.189Z INFO devtools: COMMAND executeScript(<fn>, <object>)
+2020-06-02T09:27:31.198Z INFO devtools: RESULT true
+2020-06-02T09:27:31.202Z INFO devtools: COMMAND getElementText("ELEMENT-60")
+2020-06-02T09:27:31.208Z INFO devtools: RESULT two
+2020-06-02T09:27:31.219Z INFO devtools: COMMAND navigateTo("http://webdriverjs.christian-bromann.com/")
+2020-06-02T09:27:31.363Z INFO devtools: RESULT null
+2020-06-02T09:27:31.373Z INFO devtools: COMMAND findElement("xpath", "//html/body/section/form/input[1]")
+2020-06-02T09:27:31.386Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-61' }
+2020-06-02T09:27:31.394Z INFO devtools: COMMAND getElementAttribute("ELEMENT-61", "value")
+2020-06-02T09:27:31.401Z INFO devtools: RESULT a
+2020-06-02T09:27:31.405Z INFO devtools: COMMAND findElement("xpath", "//html/body/section/form/input[1]")
+2020-06-02T09:27:31.413Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-62' }
+2020-06-02T09:27:31.425Z INFO devtools: COMMAND executeScript(<fn>, <object>)
+2020-06-02T09:27:31.435Z INFO devtools: RESULT true
+2020-06-02T09:27:31.439Z INFO devtools: COMMAND getElementProperty("ELEMENT-62", "value")
+2020-06-02T09:27:31.445Z INFO devtools: RESULT a
+2020-06-02T09:27:31.452Z INFO devtools: COMMAND findElement("xpath", "//html/body/section/form/input[1]")
+2020-06-02T09:27:31.459Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-63' }
+2020-06-02T09:27:31.466Z INFO devtools: COMMAND getElementAttribute("ELEMENT-63", "value")
+2020-06-02T09:27:31.474Z INFO devtools: RESULT a
+2020-06-02T09:27:31.478Z INFO devtools: COMMAND findElement("xpath", "//html/body/section/form/input[1]")
+2020-06-02T09:27:31.487Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-64' }
+2020-06-02T09:27:31.494Z INFO devtools: COMMAND executeScript(<fn>, <object>)
+2020-06-02T09:27:31.501Z INFO devtools: RESULT true
+2020-06-02T09:27:31.505Z INFO devtools: COMMAND getElementProperty("ELEMENT-64", "value")
+2020-06-02T09:27:31.514Z INFO devtools: RESULT a
+2020-06-02T09:27:31.524Z INFO devtools: COMMAND findElement("xpath", "//html/body/section/form/input[1]")
+2020-06-02T09:27:31.530Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-65' }
+2020-06-02T09:27:31.541Z INFO devtools: COMMAND getElementAttribute("ELEMENT-65", "value")
+2020-06-02T09:27:31.555Z INFO devtools: RESULT a
+2020-06-02T09:27:31.558Z INFO devtools: COMMAND findElement("xpath", "//html/body/section/form/input[1]")
+2020-06-02T09:27:31.564Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-66' }
+2020-06-02T09:27:31.572Z INFO devtools: COMMAND executeScript(<fn>, <object>)
+2020-06-02T09:27:31.580Z INFO devtools: RESULT true
+2020-06-02T09:27:31.584Z INFO devtools: COMMAND getElementProperty("ELEMENT-66", "value")
+2020-06-02T09:27:31.589Z INFO devtools: RESULT a
+2020-06-02T09:27:31.594Z INFO devtools: COMMAND findElement("xpath", "//html/body/section/form/input[1]")
+2020-06-02T09:27:31.599Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-67' }
+2020-06-02T09:27:31.604Z INFO devtools: COMMAND getElementAttribute("ELEMENT-67", "value")
+2020-06-02T09:27:31.609Z INFO devtools: RESULT a
+2020-06-02T09:27:31.612Z INFO devtools: COMMAND findElement("xpath", "//html/body/section/form/input[1]")
+2020-06-02T09:27:31.617Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-68' }
+2020-06-02T09:27:31.623Z INFO devtools: COMMAND executeScript(<fn>, <object>)
+2020-06-02T09:27:31.628Z INFO devtools: RESULT true
+2020-06-02T09:27:31.631Z INFO devtools: COMMAND getElementProperty("ELEMENT-68", "value")
+2020-06-02T09:27:31.635Z INFO devtools: RESULT a
+2020-06-02T09:27:31.644Z INFO devtools: COMMAND navigateTo("http://webdriverjs.christian-bromann.com/")
+2020-06-02T09:27:31.754Z INFO devtools: RESULT null
+2020-06-02T09:27:31.763Z INFO devtools: COMMAND findElement("css selector", "#newWindow")
+2020-06-02T09:27:31.767Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-69' }
+2020-06-02T09:27:31.771Z INFO devtools: COMMAND getElementAttribute("ELEMENT-69", "data-foundby")
+2020-06-02T09:27:31.775Z INFO devtools: RESULT partial link text
+2020-06-02T09:27:31.780Z INFO devtools: COMMAND findElement("css selector", "#newWindow")
+2020-06-02T09:27:31.781Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-70' }
+2020-06-02T09:27:31.786Z INFO devtools: COMMAND getElementAttribute("ELEMENT-70", "data-foundby")
+2020-06-02T09:27:31.790Z INFO devtools: RESULT partial link text
+2020-06-02T09:27:31.795Z INFO devtools: COMMAND findElement("css selector", "#newWindow")
+2020-06-02T09:27:31.797Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-71' }
+2020-06-02T09:27:31.801Z INFO devtools: COMMAND getElementAttribute("ELEMENT-71", "data-foundby")
+2020-06-02T09:27:31.805Z INFO devtools: RESULT partial link text
+2020-06-02T09:27:31.810Z INFO devtools: COMMAND findElement("css selector", "#newWindow")
+2020-06-02T09:27:31.811Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-72' }
+2020-06-02T09:27:31.815Z INFO devtools: COMMAND getElementAttribute("ELEMENT-72", "data-foundby")
+2020-06-02T09:27:31.819Z INFO devtools: RESULT partial link text
+2020-06-02T09:27:31.827Z INFO devtools: COMMAND navigateTo("http://webdriverjs.christian-bromann.com/")
+2020-06-02T09:27:31.930Z INFO devtools: RESULT null
+2020-06-02T09:27:31.936Z INFO devtools: COMMAND findElement("css selector", ".red")
+2020-06-02T09:27:31.940Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-73' }
+2020-06-02T09:27:31.945Z INFO devtools: COMMAND getElementCSSValue("ELEMENT-73", "background-color")
+2020-06-02T09:27:31.951Z INFO devtools: RESULT rgb(255, 0, 0)
+2020-06-02T09:27:32.119Z INFO devtools: COMMAND navigateTo("http://webdriverjs.christian-bromann.com/")
+2020-06-02T09:27:32.316Z INFO devtools: RESULT null
+2020-06-02T09:27:32.323Z INFO devtools: COMMAND findElement("css selector", ".red")
+2020-06-02T09:27:32.328Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-74' }
+2020-06-02T09:27:32.337Z INFO devtools: COMMAND getElementRect("ELEMENT-74")
+2020-06-02T09:27:32.343Z INFO devtools: RESULT { x: 15, y: 242, width: 102, height: 102 }
+2020-06-02T09:27:32.350Z INFO devtools: COMMAND findElement("css selector", ".red")
+2020-06-02T09:27:32.352Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-75' }
+2020-06-02T09:27:32.358Z INFO devtools: COMMAND getElementRect("ELEMENT-75")
+2020-06-02T09:27:32.363Z INFO devtools: RESULT { x: 15, y: 242, width: 102, height: 102 }
+2020-06-02T09:27:32.372Z INFO devtools: COMMAND findElement("css selector", ".red")
+2020-06-02T09:27:32.375Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-76' }
+2020-06-02T09:27:32.383Z INFO devtools: COMMAND getElementRect("ELEMENT-76")
+2020-06-02T09:27:32.394Z INFO devtools: RESULT { x: 15, y: 242, width: 102, height: 102 }
+2020-06-02T09:27:32.403Z INFO devtools: COMMAND findElement("css selector", ".red")
+2020-06-02T09:27:32.405Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-77' }
+2020-06-02T09:27:32.417Z INFO devtools: COMMAND getElementRect("ELEMENT-77")
+2020-06-02T09:27:32.424Z INFO devtools: RESULT { x: 15, y: 242, width: 102, height: 102 }
+2020-06-02T09:27:32.431Z INFO devtools: COMMAND findElement("css selector", ".red")
+2020-06-02T09:27:32.434Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-78' }
+2020-06-02T09:27:32.441Z INFO devtools: COMMAND getElementRect("ELEMENT-78")
+2020-06-02T09:27:32.447Z INFO devtools: RESULT { x: 15, y: 242, width: 102, height: 102 }
+2020-06-02T09:27:32.453Z INFO devtools: COMMAND findElement("css selector", ".red")
+2020-06-02T09:27:32.457Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-79' }
+2020-06-02T09:27:32.463Z INFO devtools: COMMAND getElementRect("ELEMENT-79")
+2020-06-02T09:27:32.470Z INFO devtools: RESULT { x: 15, y: 242, width: 102, height: 102 }
+2020-06-02T09:27:32.477Z INFO devtools: COMMAND findElement("css selector", ".red")
+2020-06-02T09:27:32.479Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-80' }
+2020-06-02T09:27:32.488Z INFO devtools: COMMAND getElementRect("ELEMENT-80")
+2020-06-02T09:27:32.494Z INFO devtools: RESULT { x: 15, y: 242, width: 102, height: 102 }
+2020-06-02T09:27:32.503Z INFO devtools: COMMAND findElement("css selector", ".red")
+2020-06-02T09:27:32.507Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-81' }
+2020-06-02T09:27:32.521Z INFO devtools: COMMAND getElementRect("ELEMENT-81")
+2020-06-02T09:27:32.531Z INFO devtools: RESULT { x: 15, y: 242, width: 102, height: 102 }
+2020-06-02T09:27:32.543Z INFO devtools: COMMAND navigateTo("http://webdriverjs.christian-bromann.com/")
+2020-06-02T09:27:32.686Z INFO devtools: RESULT null
+2020-06-02T09:27:32.694Z INFO devtools: COMMAND findElement("css selector", ".checkbox_notselected")
+2020-06-02T09:27:32.701Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-82' }
+2020-06-02T09:27:32.709Z INFO devtools: COMMAND isElementSelected("ELEMENT-82")
+2020-06-02T09:27:32.723Z INFO devtools: RESULT false
+2020-06-02T09:27:32.731Z INFO devtools: COMMAND findElements("css selector", ".checkbox_notselected")
+2020-06-02T09:27:32.737Z INFO devtools: RESULT [ { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-83' } ]
+2020-06-02T09:27:32.744Z INFO devtools: COMMAND findElement("css selector", ".checkbox_notselected")
+2020-06-02T09:27:32.746Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-84' }
+2020-06-02T09:27:32.753Z INFO devtools: COMMAND elementClick("ELEMENT-84")
+2020-06-02T09:27:32.774Z INFO devtools: RESULT null
+2020-06-02T09:27:32.798Z INFO devtools: COMMAND findElement("css selector", ".checkbox_notselected")
+2020-06-02T09:27:32.802Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-85' }
+2020-06-02T09:27:32.839Z INFO devtools: COMMAND isElementSelected("ELEMENT-85")
+2020-06-02T09:27:32.852Z INFO devtools: RESULT true
+2020-06-02T09:27:32.863Z INFO devtools: COMMAND deleteSession()
+2020-06-02T09:27:32.867Z INFO devtools: RESULT null

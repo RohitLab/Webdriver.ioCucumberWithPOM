@@ -1,0 +1,33 @@
+2020-06-02T09:27:14.157Z INFO @wdio/local-runner: Run worker command: run
+2020-06-02T09:27:14.513Z DEBUG @wdio/local-runner:utils: init remote session
+2020-06-02T09:27:14.521Z INFO webdriverio: Initiate new session using the ./protocol-stub protocol
+2020-06-02T09:27:17.474Z DEBUG @wdio/local-runner:utils: init remote session
+2020-06-02T09:27:19.899Z INFO webdriverio: Initiate new session using the devtools protocol
+2020-06-02T09:27:19.902Z INFO devtools: Launch Google Chrome with flags: --disable-extensions --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-sync --metrics-recording-only --disable-default-apps --mute-audio --no-first-run --disable-hang-monitor --disable-prompt-on-repost --disable-client-side-phishing-detection --password-store=basic --use-mock-keychain --disable-component-extensions-with-background-pages --disable-breakpad --disable-dev-shm-usage --disable-ipc-flooding-protection --disable-renderer-backgrounding --enable-features=NetworkService,NetworkServiceInProcess --disable-features=site-per-process,TranslateUI,BlinkGenPropertyTrees --window-position=0,0 --window-size=1200,900
+2020-06-02T09:27:22.256Z INFO devtools: Connect Puppeteer with browser on port 49811
+2020-06-02T09:27:29.557Z INFO devtools: COMMAND navigateTo("d:/")
+2020-06-02T09:27:29.731Z INFO devtools: RESULT null
+2020-06-02T09:27:29.770Z INFO devtools: COMMAND setWindowRect(null, null, 1024, 768)
+2020-06-02T09:27:29.781Z INFO devtools: RESULT { width: 1024, height: 768 }
+2020-06-02T09:27:30.807Z INFO devtools: COMMAND findElement("css selector", "h1")
+2020-06-02T09:27:30.818Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-1' }
+2020-06-02T09:27:30.845Z INFO devtools: COMMAND executeScript(<fn>, <object>)
+2020-06-02T09:27:30.864Z INFO devtools: RESULT true
+2020-06-02T09:27:30.871Z INFO devtools: COMMAND executeScript(<fn>, <object>)
+2020-06-02T09:27:30.878Z INFO devtools: RESULT true
+2020-06-02T09:27:30.895Z INFO devtools: COMMAND findElement("css selector", "footer")
+2020-06-02T09:27:30.898Z INFO devtools: RESULT Error: Element with selector "footer" not found
+    at DevToolsDriver.findElement (D:\Workspace\cucumber-boilerplate-master\node_modules\devtools\build\utils.js:111:12)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at Browser.wrappedCommand (D:\Workspace\cucumber-boilerplate-master\node_modules\devtools\build\devtoolsdriver.js:92:18)
+    at Browser.$ (D:\Workspace\cucumber-boilerplate-master\node_modules\webdriverio\build\commands\browser\$.js:19:15)
+    at Browser.runCommandWithHooks (D:\Workspace\cucumber-boilerplate-master\node_modules\@wdio\sync\build\wrapCommand.js:88:21)
+2020-06-02T09:27:30.919Z INFO devtools: COMMAND findElement("css selector", "footer")
+2020-06-02T09:27:30.923Z INFO devtools: RESULT Error: Element with selector "footer" not found
+    at DevToolsDriver.findElement (D:\Workspace\cucumber-boilerplate-master\node_modules\devtools\build\utils.js:111:12)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at Browser.wrappedCommand (D:\Workspace\cucumber-boilerplate-master\node_modules\devtools\build\devtoolsdriver.js:92:18)
+    at Browser.$ (D:\Workspace\cucumber-boilerplate-master\node_modules\webdriverio\build\commands\browser\$.js:19:15)
+    at Browser.runCommandWithHooks (D:\Workspace\cucumber-boilerplate-master\node_modules\@wdio\sync\build\wrapCommand.js:88:21)
+2020-06-02T09:27:30.941Z INFO devtools: COMMAND deleteSession()
+2020-06-02T09:27:30.945Z INFO devtools: RESULT null

@@ -1,0 +1,23 @@
+2020-07-07T11:06:30.949Z INFO @wdio/local-runner: Run worker command: run
+2020-07-07T11:06:30.960Z DEBUG @wdio/local-runner:utils: init remote session
+2020-07-07T11:06:30.964Z INFO webdriverio: Initiate new session using the ./protocol-stub protocol
+2020-07-07T11:06:32.466Z DEBUG @wdio/local-runner:utils: init remote session
+2020-07-07T11:06:34.503Z INFO webdriverio: Initiate new session using the devtools protocol
+2020-07-07T11:06:34.505Z INFO devtools: Launch Google Chrome with flags: --disable-extensions --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-sync --metrics-recording-only --disable-default-apps --mute-audio --no-first-run --disable-hang-monitor --disable-prompt-on-repost --disable-client-side-phishing-detection --password-store=basic --use-mock-keychain --disable-component-extensions-with-background-pages --disable-breakpad --disable-dev-shm-usage --disable-ipc-flooding-protection --disable-renderer-backgrounding --enable-features=NetworkService,NetworkServiceInProcess --disable-features=site-per-process,TranslateUI,BlinkGenPropertyTrees --window-position=0,0 --window-size=1200,900
+2020-07-07T11:06:35.035Z INFO devtools: Connect Puppeteer with browser on port 49306
+2020-07-07T11:06:38.024Z INFO devtools: COMMAND navigateTo("http://google.com/")
+2020-07-07T11:06:41.694Z INFO devtools: RESULT null
+2020-07-07T11:06:41.709Z INFO devtools: COMMAND findElements("xpath", "//input[@class='gLFyf gsfi']")
+2020-07-07T11:06:41.722Z INFO devtools: RESULT [ { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-1' } ]
+2020-07-07T11:06:41.737Z INFO devtools: COMMAND findElement("xpath", "//input[@class='gLFyf gsfi']")
+2020-07-07T11:06:41.742Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-2' }
+2020-07-07T11:06:41.751Z INFO devtools: COMMAND elementClear("ELEMENT-2")
+2020-07-07T11:06:41.756Z INFO devtools: RESULT null
+2020-07-07T11:06:41.767Z INFO devtools: COMMAND elementSendKeys("ELEMENT-2", "WebdriverIO")
+2020-07-07T11:06:41.866Z INFO devtools: RESULT null
+2020-07-07T11:06:41.871Z INFO devtools: COMMAND performActions(<object>)
+2020-07-07T11:06:43.293Z INFO devtools: COMMAND releaseActions()
+2020-07-07T11:06:43.296Z INFO devtools: COMMAND getTitle()
+2020-07-07T11:06:43.298Z INFO devtools: RESULT WebdriverIO - Google Search
+2020-07-07T11:06:43.304Z INFO devtools: COMMAND deleteSession()
+2020-07-07T11:06:43.307Z INFO devtools: RESULT null

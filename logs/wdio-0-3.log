@@ -1,0 +1,8 @@
+2020-06-02T09:38:03.510Z INFO @wdio/local-runner: Run worker command: run
+2020-06-02T09:38:03.533Z DEBUG @wdio/local-runner:utils: init remote session
+2020-06-02T09:38:03.537Z INFO webdriverio: Initiate new session using the ./protocol-stub protocol
+2020-06-02T09:38:05.668Z DEBUG @wdio/local-runner:utils: init remote session
+2020-06-02T09:38:07.723Z INFO webdriverio: Initiate new session using the devtools protocol
+2020-06-02T09:38:07.724Z INFO devtools: Launch Google Chrome with flags: --disable-extensions --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-sync --metrics-recording-only --disable-default-apps --mute-audio --no-first-run --disable-hang-monitor --disable-prompt-on-repost --disable-client-side-phishing-detection --password-store=basic --use-mock-keychain --disable-component-extensions-with-background-pages --disable-breakpad --disable-dev-shm-usage --disable-ipc-flooding-protection --disable-renderer-backgrounding --enable-features=NetworkService,NetworkServiceInProcess --disable-features=site-per-process,TranslateUI,BlinkGenPropertyTrees --window-position=0,0 --window-size=1200,900
+2020-06-02T09:38:08.244Z INFO devtools: Connect Puppeteer with browser on port 49894
+2020-06-02T09:38:14.225Z INFO @wdio/local-runner: Received SIGINT, giving process 5000ms to shutdown gracefully

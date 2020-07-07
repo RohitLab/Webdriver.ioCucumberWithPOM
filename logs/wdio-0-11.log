@@ -1,0 +1,135 @@
+2020-06-02T09:26:30.744Z INFO @wdio/local-runner: Run worker command: run
+2020-06-02T09:26:30.799Z DEBUG @wdio/local-runner:utils: init remote session
+2020-06-02T09:26:30.807Z INFO webdriverio: Initiate new session using the ./protocol-stub protocol
+2020-06-02T09:26:33.320Z DEBUG @wdio/local-runner:utils: init remote session
+2020-06-02T09:26:35.706Z INFO webdriverio: Initiate new session using the devtools protocol
+2020-06-02T09:26:35.709Z INFO devtools: Launch Google Chrome with flags: --disable-extensions --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-sync --metrics-recording-only --disable-default-apps --mute-audio --no-first-run --disable-hang-monitor --disable-prompt-on-repost --disable-client-side-phishing-detection --password-store=basic --use-mock-keychain --disable-component-extensions-with-background-pages --disable-breakpad --disable-dev-shm-usage --disable-ipc-flooding-protection --disable-renderer-backgrounding --enable-features=NetworkService,NetworkServiceInProcess --disable-features=site-per-process,TranslateUI,BlinkGenPropertyTrees --window-position=0,0 --window-size=1200,900
+2020-06-02T09:26:36.756Z INFO devtools: Connect Puppeteer with browser on port 49575
+2020-06-02T09:26:46.099Z INFO devtools: COMMAND navigateTo("http://localhost:8080/")
+2020-06-02T09:26:48.838Z INFO devtools: RESULT null
+2020-06-02T09:26:49.868Z INFO devtools: COMMAND findElement("css selector", "#hidden")
+2020-06-02T09:26:49.878Z INFO devtools: RESULT Error: Element with selector "#hidden" not found
+    at DevToolsDriver.findElement (D:\Workspace\cucumber-boilerplate-master\node_modules\devtools\build\utils.js:111:12)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at Browser.wrappedCommand (D:\Workspace\cucumber-boilerplate-master\node_modules\devtools\build\devtoolsdriver.js:92:18)
+    at Browser.$ (D:\Workspace\cucumber-boilerplate-master\node_modules\webdriverio\build\commands\browser\$.js:19:15)
+    at Browser.runCommandWithHooks (D:\Workspace\cucumber-boilerplate-master\node_modules\@wdio\sync\build\wrapCommand.js:88:21)
+2020-06-02T09:26:49.924Z INFO devtools: COMMAND findElement("css selector", "#hidden")
+2020-06-02T09:26:49.927Z INFO devtools: RESULT Error: Element with selector "#hidden" not found
+    at DevToolsDriver.findElement (D:\Workspace\cucumber-boilerplate-master\node_modules\devtools\build\utils.js:111:12)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at Browser.wrappedCommand (D:\Workspace\cucumber-boilerplate-master\node_modules\devtools\build\devtoolsdriver.js:92:18)
+    at Browser.$ (D:\Workspace\cucumber-boilerplate-master\node_modules\webdriverio\build\commands\browser\$.js:19:15)
+    at Browser.runCommandWithHooks (D:\Workspace\cucumber-boilerplate-master\node_modules\@wdio\sync\build\wrapCommand.js:88:21)
+2020-06-02T09:26:50.015Z INFO devtools: COMMAND navigateTo("http://localhost:8080/")
+2020-06-02T09:26:50.707Z INFO devtools: RESULT null
+2020-06-02T09:26:51.734Z INFO devtools: COMMAND findElement("css selector", "#visible")
+2020-06-02T09:26:51.753Z INFO devtools: RESULT Error: Element with selector "#visible" not found
+    at DevToolsDriver.findElement (D:\Workspace\cucumber-boilerplate-master\node_modules\devtools\build\utils.js:111:12)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at Browser.wrappedCommand (D:\Workspace\cucumber-boilerplate-master\node_modules\devtools\build\devtoolsdriver.js:92:18)
+    at Browser.$ (D:\Workspace\cucumber-boilerplate-master\node_modules\webdriverio\build\commands\browser\$.js:19:15)
+    at Browser.runCommandWithHooks (D:\Workspace\cucumber-boilerplate-master\node_modules\@wdio\sync\build\wrapCommand.js:88:21)
+2020-06-02T09:26:51.818Z INFO devtools: COMMAND findElement("css selector", "#visible")
+2020-06-02T09:26:51.821Z INFO devtools: RESULT Error: Element with selector "#visible" not found
+    at DevToolsDriver.findElement (D:\Workspace\cucumber-boilerplate-master\node_modules\devtools\build\utils.js:111:12)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at Browser.wrappedCommand (D:\Workspace\cucumber-boilerplate-master\node_modules\devtools\build\devtoolsdriver.js:92:18)
+    at Browser.$ (D:\Workspace\cucumber-boilerplate-master\node_modules\webdriverio\build\commands\browser\$.js:19:15)
+    at Browser.runCommandWithHooks (D:\Workspace\cucumber-boilerplate-master\node_modules\@wdio\sync\build\wrapCommand.js:88:21)
+2020-06-02T09:26:51.880Z INFO devtools: COMMAND navigateTo("http://localhost:8080/")
+2020-06-02T09:26:54.162Z INFO devtools: RESULT null
+2020-06-02T09:26:55.177Z INFO devtools: COMMAND findElement("css selector", "#makeVisible")
+2020-06-02T09:26:55.182Z INFO devtools: RESULT Error: Element with selector "#makeVisible" not found
+    at DevToolsDriver.findElement (D:\Workspace\cucumber-boilerplate-master\node_modules\devtools\build\utils.js:111:12)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at Browser.wrappedCommand (D:\Workspace\cucumber-boilerplate-master\node_modules\devtools\build\devtoolsdriver.js:92:18)
+    at Browser.$ (D:\Workspace\cucumber-boilerplate-master\node_modules\webdriverio\build\commands\browser\$.js:19:15)
+    at Browser.runCommandWithHooks (D:\Workspace\cucumber-boilerplate-master\node_modules\@wdio\sync\build\wrapCommand.js:88:21)
+2020-06-02T09:26:55.195Z INFO devtools: COMMAND findElement("css selector", "#makeVisible")
+2020-06-02T09:26:55.197Z INFO devtools: RESULT Error: Element with selector "#makeVisible" not found
+    at DevToolsDriver.findElement (D:\Workspace\cucumber-boilerplate-master\node_modules\devtools\build\utils.js:111:12)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at Browser.wrappedCommand (D:\Workspace\cucumber-boilerplate-master\node_modules\devtools\build\devtoolsdriver.js:92:18)
+    at Browser.$ (D:\Workspace\cucumber-boilerplate-master\node_modules\webdriverio\build\commands\browser\$.js:19:15)
+    at Browser.runCommandWithHooks (D:\Workspace\cucumber-boilerplate-master\node_modules\@wdio\sync\build\wrapCommand.js:88:21)
+2020-06-02T09:26:55.217Z INFO devtools: COMMAND findElements("css selector", "#btnMakeVisible")
+2020-06-02T09:26:55.229Z INFO devtools: RESULT []
+2020-06-02T09:26:55.301Z INFO devtools: COMMAND navigateTo("http://localhost:8080/")
+2020-06-02T09:26:57.062Z INFO devtools: RESULT null
+2020-06-02T09:26:58.098Z INFO devtools: COMMAND findElement("css selector", "#makeInvisible")
+2020-06-02T09:26:58.109Z INFO devtools: RESULT Error: Element with selector "#makeInvisible" not found
+    at DevToolsDriver.findElement (D:\Workspace\cucumber-boilerplate-master\node_modules\devtools\build\utils.js:111:12)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at Browser.wrappedCommand (D:\Workspace\cucumber-boilerplate-master\node_modules\devtools\build\devtoolsdriver.js:92:18)
+    at Browser.$ (D:\Workspace\cucumber-boilerplate-master\node_modules\webdriverio\build\commands\browser\$.js:19:15)
+    at Browser.runCommandWithHooks (D:\Workspace\cucumber-boilerplate-master\node_modules\@wdio\sync\build\wrapCommand.js:88:21)
+2020-06-02T09:26:58.129Z INFO devtools: COMMAND findElement("css selector", "#makeInvisible")
+2020-06-02T09:26:58.132Z INFO devtools: RESULT Error: Element with selector "#makeInvisible" not found
+    at DevToolsDriver.findElement (D:\Workspace\cucumber-boilerplate-master\node_modules\devtools\build\utils.js:111:12)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at Browser.wrappedCommand (D:\Workspace\cucumber-boilerplate-master\node_modules\devtools\build\devtoolsdriver.js:92:18)
+    at Browser.$ (D:\Workspace\cucumber-boilerplate-master\node_modules\webdriverio\build\commands\browser\$.js:19:15)
+    at Browser.runCommandWithHooks (D:\Workspace\cucumber-boilerplate-master\node_modules\@wdio\sync\build\wrapCommand.js:88:21)
+2020-06-02T09:26:58.157Z INFO devtools: COMMAND navigateTo("http://localhost:8080/")
+2020-06-02T09:26:59.642Z INFO devtools: RESULT null
+2020-06-02T09:27:00.697Z INFO devtools: COMMAND findElement("css selector", "h1")
+2020-06-02T09:27:00.707Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-1' }
+2020-06-02T09:27:00.721Z INFO devtools: COMMAND executeScript(<fn>, <object>)
+2020-06-02T09:27:00.740Z INFO devtools: RESULT true
+2020-06-02T09:27:00.745Z INFO devtools: COMMAND executeScript(<fn>, <object>)
+2020-06-02T09:27:00.754Z INFO devtools: RESULT true
+2020-06-02T09:27:00.768Z INFO devtools: COMMAND navigateTo("http://localhost:8080/")
+2020-06-02T09:27:01.321Z INFO devtools: RESULT null
+2020-06-02T09:27:02.729Z INFO devtools: COMMAND findElement("css selector", "#footer")
+2020-06-02T09:27:02.736Z INFO devtools: RESULT Error: Element with selector "#footer" not found
+    at DevToolsDriver.findElement (D:\Workspace\cucumber-boilerplate-master\node_modules\devtools\build\utils.js:111:12)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at Browser.wrappedCommand (D:\Workspace\cucumber-boilerplate-master\node_modules\devtools\build\devtoolsdriver.js:92:18)
+    at Browser.$ (D:\Workspace\cucumber-boilerplate-master\node_modules\webdriverio\build\commands\browser\$.js:19:15)
+    at Browser.runCommandWithHooks (D:\Workspace\cucumber-boilerplate-master\node_modules\@wdio\sync\build\wrapCommand.js:88:21)
+2020-06-02T09:27:02.745Z DEBUG webdriverio: command scrollIntoView was called on an element ("#footer") that wasn't found, waiting for it...
+2020-06-02T09:27:02.756Z INFO devtools: COMMAND findElements("css selector", "#footer")
+2020-06-02T09:27:02.775Z INFO devtools: RESULT []
+2020-06-02T09:27:03.315Z INFO devtools: COMMAND findElements("css selector", "#footer")
+2020-06-02T09:27:03.328Z INFO devtools: RESULT []
+2020-06-02T09:27:03.791Z INFO devtools: COMMAND findElements("css selector", "#footer")
+2020-06-02T09:27:03.818Z INFO devtools: RESULT []
+2020-06-02T09:27:04.307Z INFO devtools: COMMAND findElements("css selector", "#footer")
+2020-06-02T09:27:04.313Z INFO devtools: RESULT []
+2020-06-02T09:27:04.773Z INFO devtools: COMMAND findElements("css selector", "#footer")
+2020-06-02T09:27:04.785Z INFO devtools: RESULT []
+2020-06-02T09:27:05.269Z INFO devtools: COMMAND findElements("css selector", "#footer")
+2020-06-02T09:27:05.283Z INFO devtools: RESULT []
+2020-06-02T09:27:05.922Z INFO devtools: COMMAND findElements("css selector", "#footer")
+2020-06-02T09:27:06.055Z INFO devtools: RESULT []
+2020-06-02T09:27:06.280Z INFO devtools: COMMAND findElements("css selector", "#footer")
+2020-06-02T09:27:06.313Z INFO devtools: RESULT []
+2020-06-02T09:27:06.941Z INFO devtools: COMMAND findElements("css selector", "#footer")
+2020-06-02T09:27:07.042Z INFO devtools: RESULT []
+2020-06-02T09:27:07.286Z INFO devtools: COMMAND findElements("css selector", "#footer")
+2020-06-02T09:27:07.325Z INFO devtools: RESULT []
+2020-06-02T09:27:07.782Z INFO devtools: COMMAND findElements("css selector", "#footer")
+2020-06-02T09:27:07.790Z INFO devtools: RESULT []
+2020-06-02T09:27:08.267Z INFO devtools: COMMAND findElements("css selector", "#footer")
+2020-06-02T09:27:08.281Z INFO devtools: RESULT []
+2020-06-02T09:27:08.760Z INFO devtools: COMMAND findElements("css selector", "#footer")
+2020-06-02T09:27:08.784Z INFO devtools: RESULT []
+2020-06-02T09:27:09.268Z INFO devtools: COMMAND findElements("css selector", "#footer")
+2020-06-02T09:27:09.294Z INFO devtools: RESULT []
+2020-06-02T09:27:09.764Z INFO devtools: COMMAND findElements("css selector", "#footer")
+2020-06-02T09:27:09.772Z INFO devtools: RESULT []
+2020-06-02T09:27:10.278Z INFO devtools: COMMAND findElements("css selector", "#footer")
+2020-06-02T09:27:10.287Z INFO devtools: RESULT []
+2020-06-02T09:27:10.754Z INFO devtools: COMMAND findElements("css selector", "#footer")
+2020-06-02T09:27:10.767Z INFO devtools: RESULT []
+2020-06-02T09:27:11.255Z INFO devtools: COMMAND findElements("css selector", "#footer")
+2020-06-02T09:27:11.291Z INFO devtools: RESULT []
+2020-06-02T09:27:11.768Z INFO devtools: COMMAND findElements("css selector", "#footer")
+2020-06-02T09:27:11.780Z INFO devtools: RESULT []
+2020-06-02T09:27:12.257Z INFO devtools: COMMAND findElements("css selector", "#footer")
+2020-06-02T09:27:12.263Z INFO devtools: RESULT []
+2020-06-02T09:27:12.764Z INFO devtools: COMMAND findElements("css selector", "#footer")
+2020-06-02T09:27:12.778Z INFO devtools: COMMAND deleteSession()
+2020-06-02T09:27:12.780Z INFO devtools: RESULT []
+2020-06-02T09:27:12.789Z INFO devtools: RESULT null

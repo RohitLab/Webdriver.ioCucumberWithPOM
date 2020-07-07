@@ -1,0 +1,62 @@
+2020-06-02T09:26:31.441Z INFO @wdio/local-runner: Run worker command: run
+2020-06-02T09:26:31.522Z DEBUG @wdio/local-runner:utils: init remote session
+2020-06-02T09:26:31.530Z INFO webdriverio: Initiate new session using the ./protocol-stub protocol
+2020-06-02T09:26:33.881Z DEBUG @wdio/local-runner:utils: init remote session
+2020-06-02T09:26:36.813Z INFO webdriverio: Initiate new session using the devtools protocol
+2020-06-02T09:26:36.815Z INFO devtools: Launch Google Chrome with flags: --disable-extensions --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-sync --metrics-recording-only --disable-default-apps --mute-audio --no-first-run --disable-hang-monitor --disable-prompt-on-repost --disable-client-side-phishing-detection --password-store=basic --use-mock-keychain --disable-component-extensions-with-background-pages --disable-breakpad --disable-dev-shm-usage --disable-ipc-flooding-protection --disable-renderer-backgrounding --enable-features=NetworkService,NetworkServiceInProcess --disable-features=site-per-process,TranslateUI,BlinkGenPropertyTrees --window-position=0,0 --window-size=1200,900
+2020-06-02T09:26:40.404Z INFO devtools: Connect Puppeteer with browser on port 49584
+2020-06-02T09:26:49.940Z INFO devtools: COMMAND navigateTo("https://github.com/")
+2020-06-02T09:27:01.673Z INFO devtools: RESULT null
+2020-06-02T09:27:01.715Z INFO devtools: COMMAND getUrl()
+2020-06-02T09:27:01.732Z INFO devtools: RESULT https://github.com/
+2020-06-02T09:27:01.747Z INFO devtools: COMMAND getTitle()
+2020-06-02T09:27:01.752Z INFO devtools: RESULT The world’s leading software development platform · GitHub
+2020-06-02T09:27:01.796Z INFO devtools: COMMAND navigateTo("https://github.com/search")
+2020-06-02T09:27:03.217Z INFO devtools: RESULT null
+2020-06-02T09:27:03.297Z INFO devtools: COMMAND findElement("css selector", "[placeholder='Search GitHub']")
+2020-06-02T09:27:03.407Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-1' }
+2020-06-02T09:27:03.560Z INFO devtools: COMMAND getElementAttribute("ELEMENT-1", "value")
+2020-06-02T09:27:03.744Z INFO devtools: RESULT null
+2020-06-02T09:27:03.945Z INFO devtools: COMMAND findElement("css selector", "[placeholder='Search GitHub']")
+2020-06-02T09:27:04.007Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-2' }
+2020-06-02T09:27:04.092Z INFO devtools: COMMAND getElementText("ELEMENT-2")
+2020-06-02T09:27:04.399Z INFO devtools: RESULT 
+2020-06-02T09:27:04.539Z INFO devtools: COMMAND findElement("css selector", "[placeholder='Search GitHub']")
+2020-06-02T09:27:04.683Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-3' }
+2020-06-02T09:27:04.842Z INFO devtools: COMMAND elementClear("ELEMENT-3")
+2020-06-02T09:27:05.051Z INFO devtools: RESULT null
+2020-06-02T09:27:05.225Z INFO devtools: COMMAND findElements("css selector", "[placeholder='Search GitHub']")
+2020-06-02T09:27:05.447Z INFO devtools: RESULT [ { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-4' } ]
+2020-06-02T09:27:05.687Z INFO devtools: COMMAND findElement("css selector", "[placeholder='Search GitHub']")
+2020-06-02T09:27:05.774Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-5' }
+2020-06-02T09:27:05.997Z INFO devtools: COMMAND elementSendKeys("ELEMENT-5", "webdriverio")
+2020-06-02T09:27:07.374Z INFO devtools: RESULT null
+2020-06-02T09:27:07.620Z INFO devtools: COMMAND performActions(<object>)
+2020-06-02T09:27:10.482Z INFO devtools: COMMAND releaseActions()
+2020-06-02T09:27:10.566Z INFO devtools: COMMAND findElement("css selector", ".header-search-input")
+2020-06-02T09:27:10.601Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-6' }
+2020-06-02T09:27:10.661Z INFO devtools: COMMAND getElementAttribute("ELEMENT-6", "value")
+2020-06-02T09:27:10.681Z INFO devtools: RESULT webdriverio
+2020-06-02T09:27:10.723Z INFO devtools: COMMAND findElement("css selector", ".header-search-input")
+2020-06-02T09:27:10.748Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-7' }
+2020-06-02T09:27:10.792Z INFO devtools: COMMAND executeScript(<fn>, <object>)
+2020-06-02T09:27:10.871Z INFO devtools: RESULT true
+2020-06-02T09:27:10.939Z INFO devtools: COMMAND getElementProperty("ELEMENT-7", "value")
+2020-06-02T09:27:11.133Z INFO devtools: RESULT webdriverio
+2020-06-02T09:27:11.247Z INFO devtools: COMMAND findElement("css selector", ".repo-list-item:first-child")
+2020-06-02T09:27:11.263Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-8' }
+2020-06-02T09:27:11.294Z INFO devtools: COMMAND executeScript(<fn>, <object>)
+2020-06-02T09:27:11.338Z INFO devtools: RESULT true
+2020-06-02T09:27:11.719Z INFO devtools: COMMAND getElementText("ELEMENT-8")
+2020-06-02T09:27:11.795Z INFO devtools: RESULT webdriverio/webdriverio
+
+Next-gen browser and mobile automation test framework for Node.js
+
+javascript webdriverio devtools automation performance node webdriver jasmine mocha test cucumber performance-test
+ 5.7k
+ JavaScript
+MIT license
+Updated 12 hours ago
+69 issues need help
+2020-06-02T09:27:11.863Z INFO devtools: COMMAND deleteSession()
+2020-06-02T09:27:11.878Z INFO devtools: RESULT null
